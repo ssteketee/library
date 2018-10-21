@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- This file sets the shortcut icons and loads standard styles and scripts -->
+<link rel="shortcut icon" href="/images/fc-icon16.png">
+<link rel="shortcut icon" href="/images/fc-icon32.png">
+<link rel="shortcut icon" href="/images/fc-icon64.png">
+
+<script charset="utf-8" type="text/javascript" src="/includes/v4.5/js/jquery-2.1.0.js"></script>
+<script charset="utf-8" type="text/javascript" src="/includes/v4.5/js/wsp.js"></script>
+<script charset="utf-8" type="text/javascript" src="/includes/v4.5/widgets/jquery.tiny-draggable.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/includes/v4.5/widgets/widgets.css" />
+<script charset="utf-8" type="text/javascript" src="/includes/v4.5/js/wsp-runner.js"></script>
+<link rel="stylesheet" type="text/css" href="../tools.css" />
+<script charset="utf-8" type="text/javascript" src="/includes/v4.5/widgets/widgets.js"></script>
+<script charset="utf-8" type="text/javascript" src="../tools.js"></script>
+
+
+<title>Websketch Tool Library</title>
+
+
+	</head>
+  <body>
+		<br>
+
+		<div class="uTitle">WebSketch Tool Library &nbsp; <span class="uTitleButton"><button type="button" onclick="var el=$('#about'); if (el.css('display')==='none') el.css('display','block'); else el.css('display','none');">About this page</button></span></div>
+		
+		<div id="about" class="uAbout">
+			<div class="uAboutClose"><button type="button" onclick="$('#about').css('display','none');">X</button></div>
+			<div class="lib-about-div">
+				<h3 class="firstPara">Using the tool library</h3>
+				<p>On this web page you can create new sketches or modify existing sketches by adding or removing tools, adding or removing pages, and changing the size of the sketch window. The resulting sketch, saved as a .json document, can then be used on any desired WSP-enabled webpage.</p>
+				<p>Add tools to your sketch by clicking the desired tool icons below the sketch area. Use the scroll bar to see more tools. Reorder or delete tools by using the pane to the left of the sketch window.</p>
+				<p>(Note: The undo/redo history of the sketch is lost when you add, reorder, or delete tools.)</p>
+				<p>Delete the currently-visible page by pressing the Delete Page button, or add a new page by pressing New Page.</p>
+				<h3>Downloading and uploading</h3>
+				<p>When you finish making your changes, save the result by choosing Download from the Utility popup menu (below the bottom-left corner of the sketch).</p>
+				<p>To modify an existing sketch, it must be in the form of a .json document. Choose Upload from the Utility menu and then browse to the .json document you wish to edit.</p>
+				<h3>Putting a modified sketch on your website</h3>
+				<p>First, <a href="./standard-with-widgets.zip">download this zip file</a> and unzip it to create a folder with a skeleton webpage that contains everything you need except the sketch data contained in your .json document.</p>
+				<p>If your webpage will contain only a single sketch, just use "sketch" as the name when you download your sketch from the Tool Library. (The suffix ".json" will be added automatically.) Put this downloaded "sketch.json" document in the folder that was created when you unzipped the skeleton webpage.</p>
+				<p>If your webpage will contain multiple sketches, you need to give each .json document a different name and place them all in the folder with the skeleton webpage. Finally, open the "index.html" document in a text editor. Once "index.html" is open in your text editor, you'll see directions explaining how to add another sketch to your webpage.</p>
+			</div>
+		</div>
+
+		<div id="uLeftPane">
+			<div id="sizePane">
+				<div>
+					<label for="height">Height:</label>
+					<input type="number" id="height" class="uSizeButton" name="height" min="50" max="2000" onchange="TOOLS.resetSketchWindowSize('libSketch');"/>
+					<span class="validity"></span>
+				</div>
+				<div class="uClear">
+					<label for="width">Width:</label>
+					<input type="number" id="width" class="uSizeButton" name="width" min="50" max="2000" onchange="TOOLS.resetSketchWindowSize('libSketch');"/>
+					<span class="validity"></span>
+				</div>
+			</div>
+			<div id="uPagePane">
+				<input type="button" id="newPage" value="New Page" onclick="TOOLS.insertPage('libSketch');"/><br>
+				<input type="button" id="deletePage" value="Delete Page" onclick="TOOLS.deletePage('libSketch');"/>
+			</div>
+			<ul id="uToolList">
+			</ul>
+		</div>
+		
+		<div class="sketch_container">
+			<div class="sketch_canvas" id="libSketch" data-url="empty.json" > </div>
+			<div style="clear: both;"></div>
+			<div class="util-menu-btn"></div>
+			<p class="uContainerText" ><span style="font-size:1.3rem;">⬅︎</span> Use these commands to upload or download a sketch.</p>
+			<span class="page_buttons"></span>
+			<button class="widget_button">Widgets</button>
+		</div>
+	<div class="uClear"></div>
+	<br><br>
+	<div id="toolCollection">
+		<div class="uLibDirections">Tap a tool to add it to the sketch.</div>
+		<div class="uLibButtons">
+			<button type="button" onclick="TOOLS.loadLibraryTools('basic/*.json');">Basic</button> &nbsp; &nbsp;
+			<button type="button" onclick="TOOLS.loadLibraryTools('advanced/*.json');">Advanced</button>&nbsp;
+		</div>
+		<div id="toolTable">
+		</div>
+	</div><br>
+	
+	<div class="uClear"></div>
+<!--#include virtual="/includes/v4.5/js/js-version.html" -->
+
+  </body>
+</html>

@@ -1,0 +1,2181 @@
+{
+  "metadata": {
+    "width": 701,
+    "height": 400,
+    "wsp-version": "4.5.1-alpha",
+    "wsp-build-number": "1020",
+    "wsp-build-stamp": "stek-macbook-pro.lan/20180119091811",
+    "exporter-version": "6.00A3007(dev)",
+    "exporter-build": "3007(dev)",
+    "original-document-name": "hyperbolic.gsp",
+    "start-page": "1"
+  },
+  "resources": {
+    "pictures": [
+      {
+        "height": 64,
+        "width": 85,
+        "src": "data:image/png;base64,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"
+      },
+      {
+        "height": 64,
+        "width": 85,
+        "src": "data:image/png;base64,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"
+      },
+      {
+        "height": 64,
+        "width": 85,
+        "src": "data:image/png;base64,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"
+      },
+      {
+        "height": 64,
+        "width": 85,
+        "src": "data:image/png;base64,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"
+      },
+      {
+        "height": 64,
+        "width": 85,
+        "src": "data:image/png;base64,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"
+      }
+    ],
+    "fontList": [
+      "\"Arial\", sans-serif",
+      "\"Times New Roman\", sans-serif"
+    ]
+  },
+  "pages": [
+    {
+      "metadata": {
+        "title": "1",
+        "id": "1",
+        "sketchRect": {
+          "top": 0,
+          "left": 0,
+          "bottom": 400,
+          "right": 701
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "in",
+          "angle": "deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 2,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Points": {
+            "color": "rgb(255,128,0)"
+          },
+          "Interior": {
+            "color": "yellow"
+          },
+          "Selection": {
+            "color": "fuchsia"
+          },
+          "ActionButton": {
+            "color": "black"
+          }
+        },
+        "text": {
+          "mathItalicization": false,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal"
+            },
+            "Caption": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 14
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 14
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Arial\", sans-serif",
+                "font-size": 14
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 12
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 22
+            }
+          }
+        }
+      },
+      "objects": {
+        "1": {
+          "kind": "Text",
+          "genus": "Caption",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 315,
+              "y": 7
+            }
+          },
+          "textMFS": "<VL<H<T'In this sketch the hyperbolic plane '><+<T'H'><T'2'>><T' is represented using the Poincar\u00e9 disk model. '>><T'Use this document\\'s custom tools to perform constructions on the hyperbolic plane,'><T'comparing your findings to equivalent constructions on the Euclidean plane.'><F1FxxFFFFFFFFx20x4x>>",
+          "style": {
+            "font-size": 10
+          }
+        }
+      }
+    }
+  ],
+  "tools": [
+    {
+      "metadata": {
+        "image": 0,
+        "name": "Hyperbolic"
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 177,
+              "y": 260
+            }
+          },
+          "toolRole": "given",
+          "latentVisibility": true,
+          "label": "P. Disk Radius",
+          "style": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 343,
+              "y": 211
+            }
+          },
+          "toolRole": "given",
+          "latentVisibility": true,
+          "label": "P. Disk Center",
+          "style": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "2",
+            "p1": "1"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "label": "Poincar\u00e9 Disk Model",
+          "style": {
+            "selectable": false,
+            "color": "rgb(138,102,217)"
+          }
+        },
+        "4": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "2",
+            "1": "1"
+          },
+          "geom": {
+            "loc": {
+              "x": 12,
+              "y": 9
+            }
+          },
+          "label": "Hide Disk Controls",
+          "style": {
+            "color": "rgb(255,128,0)",
+            "label": {
+              "font-family": 0,
+              "font-size": 10,
+              "font-weight": "normal",
+              "font-style": "normal",
+              "text-decoration": "none",
+              "letter-spacing": "none",
+              "color": "black"
+            }
+          },
+          "constraint": "ActionButtonToggleHideShow",
+          "messages": [
+            "Hide Disk Controls",
+            "Show Disk Controls"
+          ],
+          "fade": true
+        },
+        "5": {
+          "kind": "Text",
+          "genus": "CompositeText",
+          "parents": {
+            "0": "3"
+          },
+          "constraint": "CompositeText",
+          "geom": {
+            "loc": {
+              "x": 8,
+              "y": -55
+            }
+          },
+          "textMFS": "<VL<?1x1<H<SS2<T'Poincar\u00e9'>><T' '><SS2<T'Disk'>><T' '><SS2<T'Model'>>>>>",
+          "label": "t[1]",
+          "style": {
+            "hidden": true,
+            "font-family": 0,
+            "font-size": 14,
+            "font-weight": "bold",
+            "font-style": "normal",
+            "text-decoration": "none",
+            "letter-spacing": "none",
+            "color": "black"
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 341,
+              "y": 19
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 3,
+          "style": {
+            "hidden": true,
+            "color": "rgb(255,128,0)",
+            "radius": 1.5
+          }
+        },
+        "7": {
+          "kind": "Text",
+          "genus": "CompositeText",
+          "parents": {
+            "p0": "6",
+            "text": "5"
+          },
+          "constraint": "Pegged",
+          "style": {
+            "font-family": 0,
+            "font-size": 14,
+            "font-weight": "bold",
+            "font-style": "normal",
+            "text-decoration": "none",
+            "letter-spacing": "none",
+            "color": "black"
+          }
+        },
+        "8": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 16,
+              "m01": 0,
+              "m11": 1,
+              "m21": 30
+            }
+          },
+          "image": 0,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 0
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "image": 1,
+        "name": "Segment"
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 374,
+              "y": 202
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Center",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 280,
+              "y": 326
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Radius",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "label": "P. Disk",
+          "style": {
+            "selectable": false,
+            "color": "rgb(138,102,217)"
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 289,
+              "y": 259
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 1,
+          "style": {
+            "color": "red"
+          }
+        },
+        "5": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "4"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "6",
+            "center": "1",
+            "A": "1",
+            "B": "4",
+            "C": "6"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 345,
+              "y": 304
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "style": {
+            "color": "red"
+          }
+        },
+        "9": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "8"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "10": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "9",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "11": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "10",
+            "center": "1",
+            "A": "1",
+            "B": "8",
+            "C": "10"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "12": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "8",
+            "p1": "4"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "13": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "12"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "14": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "7",
+            "p1": "4",
+            "p2": "11"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "14",
+            "circle": "3"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "16": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "14",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "17": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "15",
+            "p1": "4",
+            "p2": "16"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "13",
+            "line": "12"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "19": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "18",
+            "circle": "17"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "20": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "4",
+            "p1": "19",
+            "p2": "8"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "color": "red",
+            "width": 1
+          }
+        },
+        "21": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 29,
+              "m01": 0,
+              "m11": 1,
+              "m21": 28
+            }
+          },
+          "image": 1,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 0
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "image": 2,
+        "name": "Line"
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 364,
+              "y": 203
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Center",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 233,
+              "y": 338
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Radius",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "label": "P. Disk",
+          "style": {
+            "selectable": false,
+            "color": "rgb(138,102,217)"
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 238,
+              "y": 263
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 1,
+          "style": {
+            "color": "red"
+          }
+        },
+        "5": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "4"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "6",
+            "center": "1",
+            "A": "1",
+            "B": "4",
+            "C": "6"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 361,
+              "y": 280
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "style": {
+            "color": "red"
+          }
+        },
+        "9": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "8"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "10": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "9",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "11": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "10",
+            "center": "1",
+            "A": "1",
+            "B": "8",
+            "C": "10"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "12": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "7",
+            "p1": "4",
+            "p2": "11"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "13": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "3",
+            "circle": "12"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "14": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "3",
+            "circle": "12"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "15": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "13",
+            "p1": "4",
+            "p2": "14"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "color": "navy",
+            "width": 1
+          }
+        },
+        "16": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 14,
+              "m01": 0,
+              "m11": 1,
+              "m21": 9
+            }
+          },
+          "image": 2,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 0
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "image": 3,
+        "name": "Circle"
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 364,
+              "y": 204
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Center",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 236,
+              "y": 341
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Radius",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "label": "P. Disk",
+          "style": {
+            "selectable": false,
+            "color": "rgb(138,102,217)"
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 251,
+              "y": 218
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 1,
+          "style": {
+            "color": "red"
+          }
+        },
+        "5": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "1",
+            "p1": "4"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "3"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "8": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "7",
+            "p1": "6"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "9": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "6",
+            "center": "7"
+          },
+          "angle": -0.78539818525314,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "10": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "9",
+            "p1": "6"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "11": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "9",
+            "p1": "4"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "12": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "7",
+            "p1": "9"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "13": {
+          "kind": "Point",
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "12"
+          },
+          "value": 0.84901474611081,
+          "constraint": "PointOnPath",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "14": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "13",
+            "p1": "6"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "11",
+            "line1": "14"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "7",
+            "p1": "15"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "17": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "10",
+            "line1": "16"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "13",
+            "p1": "17"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "19": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "8",
+            "line1": "18"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "20": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "21": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "20"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "22": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "21",
+            "p1": "19"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "23": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "3",
+            "circle": "22"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "24": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "19",
+            "p1": "23"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "25": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 323,
+              "y": 300
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "style": {
+            "color": "red"
+          }
+        },
+        "26": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "25",
+            "p1": "19"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "27": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "25",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "28": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "19",
+            "line": "27"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "29": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "19",
+            "radius": "27"
+          },
+          "constraint": "CircleByRadius",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "30": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "28",
+            "circle": "29"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "31": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "28",
+            "circle": "24"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "32": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "26",
+            "circle": "24"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "33": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "32",
+            "p1": "30"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "34": {
+          "kind": "Straight",
+          "genus": "Parallel",
+          "parents": {
+            "p0": "31",
+            "line": "33"
+          },
+          "constraint": "Parallel",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "35": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "34",
+            "line1": "26"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "36": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "35"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "37": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "36"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "38": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "37",
+            "p1": "19"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "39": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "37",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "40": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "38",
+            "circle": "24"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "41": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "19",
+            "line": "39"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "42": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "19",
+            "radius": "39"
+          },
+          "constraint": "CircleByRadius",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "43": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "41",
+            "circle": "24"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "44": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "41",
+            "circle": "42"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "45": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "40",
+            "p1": "44"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "46": {
+          "kind": "Straight",
+          "genus": "Parallel",
+          "parents": {
+            "p0": "43",
+            "line": "45"
+          },
+          "constraint": "Parallel",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "47": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "46",
+            "line1": "38"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "48": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "25",
+            "p1": "47"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "49": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "48"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "50": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "49",
+            "line": "48"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "black",
+            "width": 1
+          }
+        },
+        "51": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "50",
+            "line1": "5"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "white",
+            "radius": 2
+          }
+        },
+        "52": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "51",
+            "p1": "25"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "color": "rgb(0,0,192)",
+            "width": 1
+          }
+        },
+        "53": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 29,
+              "m01": 0,
+              "m11": 1,
+              "m21": 27
+            }
+          },
+          "image": 3,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 4
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "image": 4,
+        "name": "Perp. Bis."
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 367,
+              "y": 207
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Center",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 239,
+              "y": 344
+            }
+          },
+          "toolRole": "assumed",
+          "label": "P. Disk Radius",
+          "style": {
+            "color": "red",
+            "radius": 2
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "label": "P. Disk",
+          "style": {
+            "selectable": false,
+            "color": "rgb(138,102,217)"
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 244,
+              "y": 217
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 1,
+          "style": {
+            "color": "red"
+          }
+        },
+        "5": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "4"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "7": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "6",
+            "center": "1",
+            "A": "1",
+            "B": "4",
+            "C": "6"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 308,
+              "y": 237
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "style": {
+            "color": "red"
+          }
+        },
+        "9": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "1",
+            "p1": "8"
+          },
+          "constraint": "Ray",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "10": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "9",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "11": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "10",
+            "center": "1",
+            "A": "1",
+            "B": "8",
+            "C": "10"
+          },
+          "constraint": "Dilate3PtRatio",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "12": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "4",
+            "p1": "8"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "13": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "12"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "14": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "11",
+            "p1": "8",
+            "p2": "7"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "15": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "14",
+            "circle": "3"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "16": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "14",
+            "circle": "3"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "17": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "15",
+            "p1": "8",
+            "p2": "16"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "13",
+            "line": "12"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "19": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "18",
+            "circle": "17"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "20": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "8",
+            "p1": "19",
+            "p2": "4"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "color": "red",
+            "width": 1
+          }
+        },
+        "21": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "4",
+            "p1": "8"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "22": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "16",
+            "p1": "15"
+          },
+          "constraint": "Line",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "23": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "21",
+            "line1": "22"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "24": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "23",
+            "p1": "1"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "25": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "24"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "26": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "25",
+            "p1": "1"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "27": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "3",
+            "circle": "26"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "28": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "3",
+            "circle": "26"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "29": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "23",
+            "p1": "28"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,64,32)",
+            "width": 1
+          }
+        },
+        "30": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "27",
+            "p1": "28"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "31": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "30"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "32": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "31",
+            "p1": "1"
+          },
+          "constraint": "Segment",
+          "style": {
+            "hidden": true,
+            "color": "rgb(32,32,64)",
+            "width": 1
+          }
+        },
+        "33": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "32",
+            "circle": "29"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "hidden": true,
+            "color": "rgb(192,32,32)",
+            "radius": 2
+          }
+        },
+        "34": {
+          "kind": "Arc",
+          "genus": "SimpleArc",
+          "parents": {
+            "p0": "27",
+            "p1": "33",
+            "p2": "28"
+          },
+          "constraint": "Arc3Points",
+          "style": {
+            "color": "navy",
+            "width": 1
+          }
+        },
+        "35": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 27,
+              "m01": 0,
+              "m11": 1,
+              "m21": 29
+            }
+          },
+          "image": 4,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 0
+          }
+        }
+      }
+    }
+  ]
+}

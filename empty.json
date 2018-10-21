@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "width": 650,
+    "height": 400,
+    "wsp-version": "4.5.1-alpha",
+    "wsp-build-number": "1020",
+    "wsp-build-stamp": "stek-macbook-pro.lan/20180119091811",
+    "exporter-version": "6.00A3007(dev)",
+    "exporter-build": "3007(dev)",
+    "original-document-name": "empty.gsp",
+    "start-page": "1"
+  },
+  "pages": [
+    {
+      "metadata": {
+        "title": "1",
+        "id": "1",
+        "sketchRect": {
+          "top": 0,
+          "left": 0,
+          "bottom": 400,
+          "right": 650
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "cm",
+          "angle": "signed deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 0,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "Straights": {
+            "color": "blue"
+          },
+          "PointLocus": {
+            "color": "blue"
+          },
+          "CoordSys": {
+            "color": "rgb(160,160,160)"
+          },
+          "ActionButton": {
+            "color": "black"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-weight": "normal"
+            },
+            "Caption": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 72
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 14
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Arial\", sans-serif",
+                "font-size": 14
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 12
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Arial\", sans-serif",
+              "font-size": 22
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "width": 780,
+    "height": 540,
+    "wsp-version": "4.5.1-alpha",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
+    "exporter-version": "6.00A3007(dev)",
+    "exporter-build": "3007(dev)",
+    "original-document-name": "Animate Point Tool.gsp",
+    "start-page": "1"
+  },
+  "resources": {
+    "pictures": [
+      {
+        "height": 64,
+        "width": 84,
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABACAYAAACELFBMAAAAAXNSR0IArs4c6QAADGVJREFUeAHtWwl0VEUWff93p4Msg6NiJg4EnQFDWBVwHwUMihsBBg9oEEZR0XM8EnQ8M+OKqCiEGUAQElBZk0GY40bANaIImDBkwTSQ4ICJaBITJCEdSaeT7v/mvar/u39W0iExaek656fqV716y61X9aqqfwCCKYhAEIEgAkEEgggEEQgiEEQgiMBZisDo8YgAiGNiOA+mM0Lg0GEJJgPKT9lJLaBBVc8IjTbo/M8VJiYKwu40xVQReEVrR6p85DsPRkYCMITCLVGB1N0B7aAdCSfA7H/QNFd4ivum/dBruRxMfiNQUurB0J5IPinB5LIB7A9FgbuOdtgauiRBBVelnOrXjQcYeztNfV2bHbsCex3127vOtMOJcg+eG+bzyJRPNVy8Uk599tiZs4PT3i+MX1qsg6kijhglwcu2a6jQO0/73gMCd8r7BURbEDtPIfbqrwNK4L31ngSUeYdxfQiiChrK/WlbSPyV81i82heIoq7ygclmxz6kA02euvzN9vXSufGI3WnZuT8OkZeggIW972BWXgL35r/rAroqid7JQ7l98oy6bW1tcPdeUg7LumSQhh9+2r7y2lp/wW9Nsm4E7T37Dm7ogQUFejt5aI/w9jXwmVd0WfrgMrD3UTAMqKNv1JVshPTQxasaB6z/Fb4lIT2zcZq2Gu1tqYh9BpMM/XDBO4zegxC5vq1ktBufZBF8WFHEsP4ePEXBqTFhs57QDSQvnb+0cZrG+rW2jj3yXrFNk7rxToOBve/RTu6tw0dLhRnQV5oBasv7cj/KdNGT2h9QYyB4LxwR5dOR5fP79tROGLBSaAoZR8yev29+5EuP+wANoeNoU55sAGHcpTIAjT2GXKPN2OvWrxft5J0GnS/3YN/LfrmBNexqNr9Ov0BmJZ+a3zAY1e88Mtpn2CefN21McakPfC8A9S5buL5R8EwDoFikvKbAlv3ra9n4e7uf5T/fo+GeFCk89Hy6YZrV6NJZR7uxN/hoUnd76rSZX7Z9aJz5NboC1ACsFF8IPs6NpNLFoPGmWORVodHmzXURiMSHEGF6wZnuZ4khRAzxUnZ84bapPm+Le6ppbzNr+vEOX5+RNzbt0TdP9tElrm8Zb7Mcc5kjewRFeNCDEnt2xEBEXq7MdB1azvraZ7DaVcP8Yy1TjtdNXj+NKVjyU8N+Px7nI6qk4aNqSWlDmpYYX15hXMZIXcX0VjziBNXp9qRT75dK8mj7e4M09s++vjLy14VHeKQeRG6+s3VgpnwmIznrxw8PEF/MdNp9aA/TFd3BPP+M5j2o8FACbdbfGvbl6c7exM+qDQ3b68Lf8E2clIwNvT4wPOjlFZ1wm2So/1y8Rxwhn1vov8FpGdxHPv2H1zWSpztHZgEo5UX0bshsac4XIwZ/3m92Wq80G1RUVOS3oeb+vxXneQKOPOjbAh9oCet82yUZmMy9WlY2bptmzWl+X9wybu1IxSDGTpmKoSE2VBQFbdYQvOeuu7Gw+Ae/wZ18r8+LXuebKD2Zo3trprvBp9PnDGbv34XjFSFdcKtFxVx6tlpseKUtVNQXFfkHqrwTlaDGPiwB5ZOUeboXis19p4emdQreM+UuAjMUq2hxom2293HSJedV1lDkdn8486292MbQWhrWzy36Jq7z1d0q9qH+cAwwWpvNhimqTQfS6s0JCUyxWpDb/TXpYv3CgoHNsLtRgKhH58RWRHd/5XcYvZzOKh60AtJJToDpoY0deyrnuRZxokN/A5Xcv9J0p8D04iLK9Rt9JdSDHO07zOBfQjAHIl47zdPdKL9vVUWg8lePDZsZNLnpll+VyKh/k9j4+8stwOg5mvMa6tQ9VKNbCn5O0XzlQDVtSqzfHiW/IpGg0lgJcBngMz27BwS0xcUlFM3DRABiT81TFeGxDGafsHAsLi70G1A2fMg1BKQJTI7yPx6vu9kPCIBaoySvkdOm3mVMb5Gz5/q7dpplz3na55n8m9TNZ8N0NwNglAsLi1vlkUZ/I3/3Q/1kZET3M7yqM/ietXmZw+yhiI1d55214LTW8DETyEvJQ0XeWibBfkEEgggEEQgiEFgIoPYNPk03umrsW1iJHF1Pn7Li+6I6N6NFtKfjhujAXclr8BD9eHY6WqOd+6yZrjJ9neeGB5afls/PmS9Rn3gs05r+dZXlHM/cjAnvfttinQzdoCydBUjF3smvaRGDstyd+IW9tEW0XkFNFDTPf+lUNAyznP4AWoGrbyRA4zZh3pGjmJebjzlp7+HDYEH19s1Y1Yxj1JbnYerO3GZ1R+LwGl2WK0uym6Vr1KRNE1S8Y+Xn+M4cCyrPk3F6qs7biBNjnsJX503jOlRHzcAtOSdFe97bT2Dcxv+hVpuDT8bE4tLX5+Ew/kIAojEhdS9um3e73udxTCupFX0qC7bjnNG6R6lDcc6KPaR2JW6ZZhW0AA9jVoWGWvl+jJ8eRVsmpp2Ia9MaHl/pgx1MJF7XJxwUvA2dj64bh+qA14T31RSm4wuxg3TexGdXgaB15W/BaXHvkI8jHk6ajTFzXsDHJ0i9Rs9aiUeqEXM33S/7kQ6z1taVYchqNMfyj0THLYWIrr0vU3kGfq17SmVOAl32kqAHV2NG7le4YCKV/5SIP5MiGcsi8NKFWYiVmTiZDt0KTMcPMjLx7Xm3ip9BBsZtwOzsbTid+g9cuh/RfQgnEeDqk5vxSPH3mP7284Iu6YgTi/a9gYPVyzDxswN4srYE44eSnPGLMDs/H79cN1sAu6XAKcAwjOApv/pGwAEL9njrXSW5GD+BBidmPVa7j+FjrHvMQswiD/5o6Uz6ydiCSblOdGT9i/okiOXNvuoW7o+PJO1E+5dJSB+M4JTkw1hVuAcfJzDV2NfRXlrtlWHIbzI/vOluIn4Rf0ANsSJHGP3oB/L4WGlfTm2jME2cWgBc9iUEQiJWejTMXnY1GbMfPa4MnEhKzN1ZIYS6D79G+Rjcpw+K/dVrMHJBJmo1J3Dvji/xWJUHtaoqLDqwWXj04mwaHs/XOIbk7HNq6Dr4JvPBNZnH0VF2Ah0nD+EzZNj1S/YL/oYh7KFraWaJAReeTOBRP4ChmLzPgZX2FVS+DNMpKHAfpl81GPBSmsIO+yICd6UElPSDuE8EDdNlU2yIXCBn6foxCl6beHrv9P5rInq+x/jL+xAbFXorzzI/+YFPwlYoJy/EA4upaSz06SGbalh7vkpWyQI2hRJ/KEX/egTndqWPiCi5XLIeXHQrSsnNq4Cmgmo7X7FvnY93dBsFOcZSSaTnoBs0j4tmtwruWgVqPDWi38wRvWAmc1ckn7tDRbX3D7k81DjoG6YHN0DmY8MAnU7wwLnQf1gknGdVFIedvfBy6KFbqyjdlL0LL0FV6EffnRA1q8b6RYVfCLk6Z2uXcFCqbGQfz4CeYKl2eWU2VfAC6vrmU/h7DsDG9INw9QUMTleoOpoEQ8Y9BNuPzoAY4qAM6Ak9dU6aRmDqidZrQld+d0Yl6izbkMAmBIF+/dQpiYcFoTr3DewS9QA8+59sSB03BHqF7ofo0JHg8hCUOh9rCLF0069T1PXjH2tgXJhNQc2Jh3d9BScvioBNXo5EQvypK1w/fASMGDjIJ8ygqeVCARA3kdhD14/pBngLDxgPEv2koPcyB/saHkRzwnojaW7Ty94eaRtnkkarYNJVkdC/X5Tyx359lcFjZ8BLJGhGcjqRa4CHLPKrNHpT6DM1M1DCewhNszXk10RjgVoToAy8mz1PHQojroiCC3o44JMlz8AO4hkSSp5dy9bvhN1f5QH0u41WcYC4JSlw3OXG4uxkGHBDNLxx4GeiMScLrYjQpAf1uHQUTIIv4In4FCitcWL+jnVw7xcAk0b0JnnWOrCpFi8k5LXSMTRwg/IT/af0d3bIdzR/Dyt6Y/V+XPuyCrP/egt0V4RbCW0VSx/lznVTQZu7Fg65yJkHuMXiJE0hsAayQLqTlxX01wrhxNEWIqc8VyP+BrqSt3FiOga8W2QMLIvNgYkXdwFVPQ/mfzsc/kIte/Ydo3kfARMmavBYdBSsOBAOr9o3Q9SCO+HCUBtcNPwBGP/8dlg0oQ+zMyWasuylXRr3IKX7SGV15kawzI2BC23nwB+iH4EHE3bBgpsuUiCEHIXsYL1CiAc7gZH4nZNFOU8Z+chMwKWxcGtCptHc+fJqhwMdTrmNqq9ddVXdekcZBaZTLdsX1+dlfnecqEBnjQk1c2OwHEQgiEAQgSACQQR+TQj8HxNUHOttXfzWAAAAAElFTkSuQmCC"
+      }
+    ],
+    "fontList": [
+      "\"Times New Roman\", sans-serif",
+      "\"Arial\", sans-serif"
+    ]
+  },
+  "pages": [
+    {
+      "metadata": {
+        "title": "Sketch",
+        "id": "1",
+        "sketchRect": {
+          "top": -32,
+          "left": -40,
+          "bottom": 508,
+          "right": 740
+        }
+      },
+      "preferences": {
+        "units": {
+          "length": "cm",
+          "angle": "deg"
+        },
+        "precision": {
+          "length": 2,
+          "angle": 2,
+          "scalar": 2
+        },
+        "colorableComponents": {
+          "ActionButton": {
+            "color": "rgb(255,128,0)"
+          }
+        },
+        "text": {
+          "mathItalicization": true,
+          "textTypes": {
+            "Label": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 18,
+              "font-weight": "normal",
+              "font-style": "italic"
+            },
+            "Caption": {
+              "font-family": "\"Times New Roman\", sans-serif",
+              "font-size": 18
+            },
+            "Measurement": {
+              "font-family": "\"Times New Roman\", sans-serif"
+            },
+            "Action": {
+              "label": {
+                "font-family": "\"Arial\", sans-serif",
+                "font-size": 24
+              }
+            },
+            "Table": {
+              "font-family": "\"Arial\", sans-serif"
+            },
+            "AxisTicksAndOptionalLabel": {
+              "font-family": "\"Proxima Nova\", sans-serif",
+              "font-size": 16
+            }
+          }
+        }
+      }
+    }
+  ],
+  "tools": [
+    {
+      "metadata": {
+        "image": 0,
+        "name": "Animate Point"
+      },
+      "objects": {
+        "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 377,
+              "y": 260
+            }
+          },
+          "toolRole": "given",
+          "style": {
+            "color": "red"
+          }
+        },
+        "2": {
+          "kind": "Button",
+          "genus": "Action",
+          "parents": {
+            "0": "1"
+          },
+          "geom": {
+            "loc": {
+              "x": 642,
+              "y": 16
+            }
+          },
+          "label": "Animate Point",
+          "style": {
+            "color": "rgb(255,128,0)",
+            "label": {
+              "font-family": 1,
+              "font-size": 18,
+              "font-weight": "normal",
+              "font-style": "normal",
+              "text-decoration": "none",
+              "letter-spacing": "none",
+              "color": "black"
+            }
+          },
+          "constraint": "ActionButtonAnimate",
+          "messages": [
+            "Animate Point"
+          ],
+          "animationStates": [
+            {
+              "rate": 3,
+              "timeInterval": 0,
+              "repeat": true,
+              "motionType": "forward"
+            }
+          ]
+        },
+        "3": {
+          "kind": "Picture",
+          "genus": "ImportedPicture",
+          "constraint": "PictureFree",
+          "geom": {
+            "transform": {
+              "m00": 1,
+              "m10": 0,
+              "m20": 26,
+              "m01": 0,
+              "m11": 1,
+              "m21": 20
+            }
+          },
+          "image": 0,
+          "style": {
+            "color": "red",
+            "opacity": 1,
+            "layerOrder": 0
+          }
+        }
+      }
+    }
+  ]
+}
