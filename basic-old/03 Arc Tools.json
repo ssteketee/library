@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 647,
-    "height": 399,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Arc Tools.gsp",
@@ -45,8 +45,8 @@
         "sketchRect": {
           "top": 0,
           "left": 0,
-          "bottom": 399,
-          "right": 647
+          "bottom": 540,
+          "right": 780
         }
       },
       "preferences": {
@@ -90,7 +90,7 @@
               "font-family": "\"Arial\", sans-serif"
             },
             "AxisTicksAndOptionalLabel": {
-              "font-family": "\"Geneva\", sans-serif",
+              "font-family": "\"Proxima Nova\", sans-serif",
               "font-size": 16
             }
           }
@@ -111,8 +111,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 265,
-              "y": 142
+              "x": 314,
+              "y": 234
             }
           },
           "toolRole": "given",
@@ -127,8 +127,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 351,
-              "y": 168
+              "x": 400,
+              "y": 260
             }
           },
           "toolRole": "given",
@@ -143,8 +143,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 385,
-              "y": 233
+              "x": 434,
+              "y": 325
             }
           },
           "toolRole": "given",
@@ -222,8 +222,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 312,
-              "y": 215
+              "x": 381,
+              "y": 284
             }
           },
           "toolRole": "given",
@@ -238,8 +238,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 438,
-              "y": 247
+              "x": 544,
+              "y": 275
             }
           },
           "toolRole": "given",
@@ -263,16 +263,13 @@
         },
         "5": {
           "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 400,
-              "y": 107
-            }
+          "genus": "PointOnPath",
+          "parents": {
+            "path": "4"
           },
-          "toolRole": "given",
-          "givenSortOrder": 3,
+          "value": 0.198116116094,
+          "constraint": "PointOnPath",
+          "label": "C",
           "style": {
             "color": "red"
           }
@@ -304,8 +301,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 343,
-              "y": 202
+              "x": 381,
+              "y": 284
             }
           },
           "toolRole": "given",
@@ -320,8 +317,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 506,
-              "y": 193
+              "x": 544,
+              "y": 275
             }
           },
           "toolRole": "given",
@@ -417,8 +414,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 343,
-              "y": 203
+              "x": 381,
+              "y": 284
             }
           },
           "toolRole": "given",
@@ -433,8 +430,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 506,
-              "y": 194
+              "x": 544,
+              "y": 275
             }
           },
           "toolRole": "given",

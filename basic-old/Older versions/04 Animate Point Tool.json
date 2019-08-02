@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 646,
-    "height": 398,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Animate Point Tool.gsp",
@@ -31,8 +31,8 @@
         "sketchRect": {
           "top": -32,
           "left": -40,
-          "bottom": 366,
-          "right": 606
+          "bottom": 508,
+          "right": 740
         }
       },
       "preferences": {
@@ -97,8 +97,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 328,
-              "y": 209
+              "x": 377,
+              "y": 260
             }
           },
           "toolRole": "given",
@@ -114,8 +114,8 @@
           },
           "geom": {
             "loc": {
-              "x": 9,
-              "y": 14
+              "x": 642,
+              "y": 16
             }
           },
           "label": "Animate Point",
@@ -152,10 +152,10 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 25,
+              "m20": 26,
               "m01": 0,
               "m11": 1,
-              "m21": 106
+              "m21": 20
             }
           },
           "image": 0,

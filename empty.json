@@ -50,15 +50,15 @@
           "mathItalicization": true,
           "textTypes": {
             "Label": {
-              "font-family": "\"Times New Roman\", sans-serif",
+              "font-family": "\"Times New Roman\", serif",
               "font-weight": "normal"
             },
             "Caption": {
               "font-family": "\"Arial\", sans-serif",
-              "font-size": 72
+              "font-size": 18
             },
             "Measurement": {
-              "font-family": "\"Times New Roman\", sans-serif",
+              "font-family": "\"Times New Roman\", serif",
               "font-size": 14
             },
             "Action": {

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 645,
-    "height": 401,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Parallel and Perpendicular Tools.gsp",
@@ -44,10 +44,10 @@
         "title": "Sketch",
         "id": "1",
         "sketchRect": {
-          "top": -4,
+          "top": 0,
           "left": 0,
-          "bottom": 397,
-          "right": 645
+          "bottom": 540,
+          "right": 780
         }
       },
       "preferences": {
@@ -109,11 +109,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 235,
-              "y": 297
+              "x": 274,
+              "y": 364
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 1,
           "style": {
             "color": "red"
           }
@@ -124,11 +125,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 490,
-              "y": 247
+              "x": 529,
+              "y": 314
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 2,
           "style": {
             "color": "red"
           }
@@ -141,22 +143,8 @@
             "p1": "2"
           },
           "constraint": "Segment",
-          "label": "constructibleGiven",
           "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 1,
-              "labelOffsetY": 5,
-              "labelParam": 0.26271751203258,
-              "font-family": 0,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "normal",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
+            "color": "navy"
           }
         },
         "4": {
@@ -165,11 +153,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 315,
-              "y": 152
+              "x": 354,
+              "y": 219
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 3,
           "style": {
             "color": "red"
           }
@@ -221,8 +210,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 294,
-              "y": 249
+              "x": 309,
+              "y": 306
             }
           },
           "toolRole": "given",
@@ -237,8 +226,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 500,
-              "y": 173
+              "x": 515,
+              "y": 230
             }
           },
           "toolRole": "given",
@@ -255,7 +244,6 @@
             "p1": "2"
           },
           "constraint": "Segment",
-          "label": "j",
           "style": {
             "color": "navy"
           }
@@ -312,7 +300,7 @@
               "m20": 12,
               "m01": 0,
               "m11": 1,
-              "m21": 19
+              "m21": 15
             }
           },
           "image": 2,
@@ -328,11 +316,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 221,
-              "y": 264
+              "x": 254,
+              "y": 327
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 1,
           "style": {
             "color": "red"
           }
@@ -343,11 +332,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 481,
-              "y": 171
+              "x": 514,
+              "y": 234
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 2,
           "style": {
             "color": "red"
           }
@@ -360,22 +350,8 @@
             "p1": "3"
           },
           "constraint": "Segment",
-          "label": "constructibleGiven",
           "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 1,
-              "labelOffsetY": 2,
-              "labelParam": 0.47868168762869,
-              "font-family": 1,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "normal",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
+            "color": "navy"
           }
         },
         "5": {
@@ -384,11 +360,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 269,
-              "y": 143
+              "x": 302,
+              "y": 206
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 3,
           "style": {
             "color": "red"
           }
@@ -419,8 +396,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 215,
-              "y": 239
+              "x": 261,
+              "y": 309
             }
           },
           "toolRole": "given",
@@ -434,8 +411,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 462,
-              "y": 176
+              "x": 508,
+              "y": 246
             }
           },
           "toolRole": "given",
@@ -451,22 +428,8 @@
             "p1": "2"
           },
           "constraint": "Segment",
-          "label": "constructibleGiven",
           "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 3,
-              "labelOffsetY": 5,
-              "labelParam": 0.41934193111515,
-              "font-family": 1,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "italic",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
+            "color": "navy"
           }
         },
         "4": {

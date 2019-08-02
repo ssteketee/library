@@ -16,6 +16,7 @@
 <script charset="utf-8" type="text/javascript" src="/includes/v4.5.2/widgets/widgets.js"></script>
 <script charset="utf-8" type="text/javascript" src="../tools.js"></script>
 
+
 <title>Websketch Tool Library</title>
 
 
@@ -55,7 +56,6 @@
 			<div id="uPagePane">
 				<input type="button" id="newPage" value="New Page" onclick="TOOLS.insertPage('libSketch');"/><br>
 				<input type="button" id="deletePage" value="Delete Page" onclick="TOOLS.deletePage('libSketch');"/>
-				<input type="button" id="deletePage" value="Check Graph" onclick="TOOLS.checkSketchGraph('libSketch');"/>
 			</div>
 			<ul id="uToolList">
 			</ul>

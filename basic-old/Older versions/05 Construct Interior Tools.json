@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 644,
-    "height": 397,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Construct Interior Tools.gsp",
@@ -40,8 +40,8 @@
         "sketchRect": {
           "top": 0,
           "left": 0,
-          "bottom": 397,
-          "right": 644
+          "bottom": 540,
+          "right": 780
         }
       },
       "preferences": {
@@ -106,11 +106,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 436,
-              "y": 294
+              "x": 507,
+              "y": 339
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 3,
           "style": {
             "color": "red"
           }
@@ -121,11 +122,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 337,
-              "y": 150
+              "x": 408,
+              "y": 195
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 2,
           "style": {
             "color": "red"
           }
@@ -136,11 +138,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 234,
-              "y": 247
+              "x": 305,
+              "y": 292
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 1,
           "style": {
             "color": "red"
           }
@@ -190,7 +193,6 @@
             "2": "1"
           },
           "constraint": "PolygonFromPoints",
-          "label": "constructibleGiven",
           "style": {
             "color": "lime",
             "layerOrder": 0
@@ -231,12 +233,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 208,
-              "y": 247
+              "x": 278,
+              "y": 283
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 2,
+          "givenSortOrder": 1,
           "style": {
             "color": "red"
           }
@@ -247,12 +249,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 402,
-              "y": 292
+              "x": 472,
+              "y": 328
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 5,
+          "givenSortOrder": 4,
           "style": {
             "color": "red"
           }
@@ -275,12 +277,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 451,
-              "y": 229
+              "x": 521,
+              "y": 265
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 4,
+          "givenSortOrder": 3,
           "style": {
             "color": "red"
           }
@@ -303,12 +305,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 370,
-              "y": 126
+              "x": 440,
+              "y": 162
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 3,
+          "givenSortOrder": 2,
           "style": {
             "color": "red"
           }
@@ -347,7 +349,6 @@
             "3": "1"
           },
           "constraint": "PolygonFromPoints",
-          "label": "constructibleGiven1",
           "style": {
             "color": "red",
             "layerOrder": 0
@@ -361,10 +362,10 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 28,
+              "m20": 24,
               "m01": 0,
               "m11": 1,
-              "m21": 19
+              "m21": 11
             }
           },
           "image": 1,
@@ -388,11 +389,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 322,
-              "y": 199
+              "x": 376,
+              "y": 262
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 1,
           "style": {
             "color": "red"
           }
@@ -403,11 +405,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 235,
-              "y": 246
+              "x": 289,
+              "y": 309
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 2,
           "style": {
             "color": "red"
           }
@@ -420,7 +423,6 @@
             "p1": "2"
           },
           "constraint": "CircleFromTwoPoints",
-          "label": "constructibleGiven",
           "style": {
             "color": "green"
           }
@@ -432,7 +434,6 @@
             "circle": "3"
           },
           "constraint": "CircleInterior",
-          "label": "c",
           "style": {
             "color": "yellow",
             "layerOrder": 0

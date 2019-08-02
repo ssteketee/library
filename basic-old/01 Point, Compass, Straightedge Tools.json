@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 650,
-    "height": 399,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Point, Compass, Straightedge Tools.gsp",
@@ -65,8 +65,8 @@
         "sketchRect": {
           "top": 0,
           "left": -12,
-          "bottom": 399,
-          "right": 638
+          "bottom": 540,
+          "right": 768
         }
       },
       "preferences": {
@@ -132,8 +132,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 302,
-              "y": 187
+              "x": 377,
+              "y": 248
             }
           },
           "toolRole": "given",
@@ -176,8 +176,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 333,
-              "y": 199
+              "x": 383,
+              "y": 253
             }
           },
           "toolRole": "given",
@@ -192,8 +192,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 238,
-              "y": 255
+              "x": 288,
+              "y": 309
             }
           },
           "toolRole": "given",
@@ -249,8 +249,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 130,
-              "y": 214
+              "x": 162,
+              "y": 282
             }
           },
           "toolRole": "given",
@@ -265,8 +265,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 236,
-              "y": 140
+              "x": 268,
+              "y": 208
             }
           },
           "toolRole": "given",
@@ -293,8 +293,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 439,
-              "y": 201
+              "x": 471,
+              "y": 269
             }
           },
           "toolRole": "given",
@@ -350,8 +350,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 235,
-              "y": 224
+              "x": 290,
+              "y": 288
             }
           },
           "toolRole": "given",
@@ -365,8 +365,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 425,
-              "y": 143
+              "x": 480,
+              "y": 207
             }
           },
           "toolRole": "given",
@@ -416,6 +416,50 @@
       },
       "objects": {
         "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 480,
+              "y": 207
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "style": {
+            "color": "red"
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 290,
+              "y": 288
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 1,
+          "style": {
+            "color": "red"
+          }
+        },
+        "3": {
+          "kind": "Straight",
+          "genus": "Ray",
+          "parents": {
+            "p0": "2",
+            "p1": "1"
+          },
+          "constraint": "Ray",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "4": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -435,50 +479,6 @@
             "opacity": 1,
             "layerOrder": 1
           }
-        },
-        "2": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 425,
-              "y": 143
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 2,
-          "style": {
-            "color": "red"
-          }
-        },
-        "3": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 235,
-              "y": 224
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 1,
-          "style": {
-            "color": "red"
-          }
-        },
-        "4": {
-          "kind": "Straight",
-          "genus": "Ray",
-          "parents": {
-            "p0": "3",
-            "p1": "2"
-          },
-          "constraint": "Ray",
-          "style": {
-            "color": "navy"
-          }
         }
       }
     },
@@ -489,6 +489,48 @@
       },
       "objects": {
         "1": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 480,
+              "y": 207
+            }
+          },
+          "toolRole": "given",
+          "style": {
+            "color": "red"
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 290,
+              "y": 288
+            }
+          },
+          "toolRole": "given",
+          "style": {
+            "color": "red"
+          }
+        },
+        "3": {
+          "kind": "Straight",
+          "genus": "Line",
+          "parents": {
+            "p0": "2",
+            "p1": "1"
+          },
+          "constraint": "Line",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "4": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -499,7 +541,7 @@
               "m20": 20,
               "m01": 0,
               "m11": 1,
-              "m21": 17
+              "m21": 21
             }
           },
           "image": 5,
@@ -507,50 +549,6 @@
             "color": "red",
             "opacity": 1,
             "layerOrder": 0
-          }
-        },
-        "2": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 425,
-              "y": 143
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 2,
-          "style": {
-            "color": "red"
-          }
-        },
-        "3": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 235,
-              "y": 224
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 1,
-          "style": {
-            "color": "red"
-          }
-        },
-        "4": {
-          "kind": "Straight",
-          "genus": "Line",
-          "parents": {
-            "p0": "2",
-            "p1": "3"
-          },
-          "constraint": "Line",
-          "style": {
-            "color": "navy"
           }
         }
       }
@@ -567,6 +565,59 @@
           "constraint": "Free",
           "geom": {
             "loc": {
+              "x": 243,
+              "y": 269
+            }
+          },
+          "toolRole": "given",
+          "style": {
+            "color": "red"
+          }
+        },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 471,
+              "y": 175
+            }
+          },
+          "toolRole": "given",
+          "style": {
+            "color": "red"
+          }
+        },
+        "3": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "4": {
+          "kind": "Point",
+          "genus": "Midpoint",
+          "parents": {
+            "path": "3"
+          },
+          "constraint": "Midpoint",
+          "style": {
+            "color": "blue"
+          }
+        },
+        "5": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
               "x": 311,
               "y": 150
             }
@@ -576,11 +627,11 @@
             "color": "white"
           }
         },
-        "2": {
+        "6": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "1"
+            "source": "5"
           },
           "angle": -1.5707963267949,
           "distance": 78,
@@ -591,11 +642,11 @@
             "color": "white"
           }
         },
-        "3": {
+        "7": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "2"
+            "source": "6"
           },
           "angle": 0,
           "distance": 127,
@@ -606,11 +657,11 @@
             "color": "white"
           }
         },
-        "4": {
+        "8": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "1"
+            "source": "5"
           },
           "angle": 0,
           "distance": 127,
@@ -621,7 +672,7 @@
             "color": "white"
           }
         },
-        "5": {
+        "9": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -641,73 +692,6 @@
             "opacity": 1,
             "layerOrder": 1
           }
-        },
-        "6": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 425,
-              "y": 143
-            }
-          },
-          "toolRole": "given",
-          "style": {
-            "color": "red"
-          }
-        },
-        "7": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 235,
-              "y": 224
-            }
-          },
-          "toolRole": "given",
-          "style": {
-            "color": "red"
-          }
-        },
-        "8": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "6",
-            "p1": "7"
-          },
-          "constraint": "Segment",
-          "label": "constructibleGiven",
-          "style": {
-            "color": "black",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 2,
-              "labelOffsetY": 4,
-              "labelParam": 0.72977661095614,
-              "font-family": 0,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "italic",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
-          }
-        },
-        "9": {
-          "kind": "Point",
-          "genus": "Midpoint",
-          "parents": {
-            "path": "8"
-          },
-          "constraint": "Midpoint",
-          "style": {
-            "color": "blue"
-          }
         }
       }
     },
@@ -723,8 +707,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 235,
-              "y": 224
+              "x": 243,
+              "y": 269
             }
           },
           "toolRole": "given",
@@ -738,8 +722,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 424,
-              "y": 143
+              "x": 471,
+              "y": 175
             }
           },
           "toolRole": "given",
@@ -748,6 +732,18 @@
           }
         },
         "3": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "4": {
           "kind": "Point",
           "genus": "Point",
           "constraint": "Free",
@@ -762,29 +758,14 @@
             "color": "white"
           }
         },
-        "4": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "3"
-          },
-          "angle": -1.5707963267949,
-          "distance": 78,
-          "constraint": "TranslateFixDistFixAngle",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "hidden": true,
-            "color": "white"
-          }
-        },
         "5": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
             "source": "4"
           },
-          "angle": 0,
-          "distance": 127,
+          "angle": -1.5707963267949,
+          "distance": 78,
           "constraint": "TranslateFixDistFixAngle",
           "shouldAutogenerateLabel": true,
           "style": {
@@ -796,7 +777,7 @@
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "3"
+            "source": "5"
           },
           "angle": 0,
           "distance": 127,
@@ -811,6 +792,21 @@
           "kind": "Point",
           "genus": "Point",
           "parents": {
+            "source": "4"
+          },
+          "angle": 0,
+          "distance": 127,
+          "constraint": "TranslateFixDistFixAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "hidden": true,
+            "color": "white"
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
             "source": "2",
             "center": "1"
           },
@@ -821,7 +817,7 @@
             "color": "blue"
           }
         },
-        "8": {
+        "9": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
@@ -835,7 +831,7 @@
             "color": "blue"
           }
         },
-        "9": {
+        "10": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -854,19 +850,6 @@
             "color": "red",
             "opacity": 1,
             "layerOrder": 0
-          }
-        },
-        "10": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "1",
-            "p1": "2"
-          },
-          "constraint": "Segment",
-          "label": "constructibleGiven",
-          "style": {
-            "color": "navy"
           }
         }
       }

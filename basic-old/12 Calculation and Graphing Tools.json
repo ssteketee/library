@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 646,
-    "height": 398,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Calculation and Graphing Tools.gsp",
@@ -26,11 +26,6 @@
         "height": 63,
         "width": 85,
         "src": "data:image/png;base64,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"
-      },
-      {
-        "height": 65,
-        "width": 85,
-        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFUAAABBCAYAAACgsujXAAAAAXNSR0IArs4c6QAACxxJREFUeAHtmwtUVVUax//nnvuEe5WXiCAqqKgDQkqZqEtLLZtmVmbp+Bh7jGWZaWGr0inN0pVNkpOVz5Ymijpa+ch89FQxa0gUA/OFiIDgvQn3ct/nvr/ZFxBF0GKWV4zOWWuvc+4++/F9v/Odb+/z7X0B8RAJiAREAiIBkYBIQCQgEhAJiAREAiIBkYBIoDUT4FqTciUlJWQ2mxEaGobY2I4tpluLdXyjHqbBYKDMzLXYtnULLmi18Hq9kMlkiIuNxehx4zB+/HhoNJrfvZ43itevtnPy5EkaMWIEtQ8LpfvkUponAS3jJTSHB90ll1FkuwgaO2YMlZWV0a82JhYAtFot3TNsGMUpFZTFQFbIQDYG1SEFWVgq5UAfyCTUIUhFY0aP9rsFEeyvGc6bb71FkSoVbZLJyMlgkj+hYbKw30vlPEUyS16+YoUI9XpQKyv1lNKrFz2skJOZWWQNTP/56sRA+y14mFxOQwYOvGlQm+XAs9YfoyXLcqG/aAVJmlX1eoyafc/r0cJw/l1k8C484fCC97fQlDgMo4Pj8J6cwxvUBtGxLwB8aLP643yEiPZqPPtMPzwyMampXhq1J22Uc52M9RuP4fAPJazETXvoTUhDrPdSqDkvYqQcOMn1xeE5QgzPw2n34NzZUsbe3USb1886V1SFDaHK6xe64m6zoA4fFodj+TrodVZmGX5tWuYgtAH5OFSTj53rZLiGDXmZTzD4fODZm8VJNAyqonlCsw4iOqgxfGgcvtj526peQ5SmK1utTjKanPB6LmnSdLlA51Yb9Rj917sx+KIOy5yuWkxNacLy9EyYp9i89VxCL3yy/RvIpPJmi8dLJQhpq4BarWiql2a3d0tWcDoFSp8xg2LYdCqbTae8l0b+Kwcq5qPc7Pd2uYTaazQ0f/78lvRZtyTHRkKdLiyk5KQk6qtS0AE2bXIxsH64vrokMKA7GdAEBn7QoEHkn9c2akTMaEwgOzubeicmUkelnJ5kab1CSnsYyI+UUprApltRLG9AWhrl5eWJQBvju3bOqVOn6Pn0dOreKZbas68n/xdUVHAwJXbrSrPnzCF/kOXatQNzp1U4XqvVSiaTCSWlpfCfw8LD0aVzZ2jUGgQHB7UKHQPz+MVWRQIiAZGASOAPSeB3NzK6bZV00aFBTLiykez26iqqNJgBlRqR7cKhkvE1ZbwOC1VXmVnESoGwyDAEyQIbYmtWQKWlzc5tLKbPXnkAS+Lfg9XpJbWiFppfLqv2IC2dPAzLco2QqIIxbv7mGnF91krKXr8Q7+y1ITGkFMFDZ0Pw+EglDSzYgLJy2SxkMZuo2mhtNAl3C3ay2WxXJSsJTk+jsuQy0ZG1z1B8lyjqufQQ2dws0Fl3eAUrnd62mDL/e4Yu/lJCX656ibr0+AflVhmp6Kul1Kv3c/R9tYnKj++hmX1SacXPpvq6l9q4keeAWqpbn0cfvToLpbwExwp4fJqvo9EpUbWvpMdKBduzkKMV4GJrIbXvMtNV4kNo4kgIbi9den39Clfl78GSM2lY+OwFZJAUvstMwavUnEdwUA9VrUsoO5rF4gAH4XGYUXpkB1wdHkXPkDYIdsQgNsqBj3PO30iGjdoKKFRD7hKsP9cP770+HInpD2Nt9gPQ2n3sU1LC8VI1ZygvIrWNcZRdggq4vR7I27Sv94d+iU3l39GK9BxMWzwWit0bIWHRfp9/EeWKQ1oHlISLdOTjBejx1GQkq6XIZasDinAV4AWkimDE9VHDw6IugTwCCjXirnlYwJ/EyQPrsO28DmdNHjAaNfp4/Zb6yWrsL2PaKi5DdbptCEkdV2+pHruevpn9Z3zeZwYGlJxCbn4xqqU5OKHt2iSX8vwfsGZNZyzc2QdBkiq2D4Atrfq7ZBw9ThtKj9kh7d5k1RuWGVColuO7Mf2fZzH7w6mYqzyCpy0SuOrcpd9SLXoddXD5l0caHlJV28uWKvHCI2ff8QczMW+fF6eOlsMQ9AGy+g1uWIn90hdmU9acXRi19jX0VfOc3aij4HbREPTsdfD7F/LAY/dCpQyo2gho61VHPwE/eAI6BAkoPH4ORs8ZlFvS6mFowmv9a31GExdSZWSNuxXYoOZzmFCweiKmy97EvFE98a65mA58X4xuQwahbUUOVj4+GYWPvo/BlSfw9dYVlHlAjxE9hiJEfwh52uHoWJ6PXFNbPDekM3Y10dfvIkv33SLqn9qbejw0nWY+lkpJieNpQ37V1Yb5m3Uhl4VOZk6kUWt+rmmj6qe1dEfaAFr302na9fJASugUQ53j4qlrfDyl3HEnbSm1kVcw0I+b5lHaxBdo5nNjadGXZ/7v/n+zoIEuaDeZyMxGZqfTRkab44YrZDZcnh4JgkB2u70m+a+v1M1iqKIqi61B3pX3xWuRgEhAJCASEAmIBEQCIoFbikBtcKhOJPLaqbK0HFq9Ef4ZpVLVHrHxHREWzPbOuYxUctGHdhFtoHBUoNwVgqhQDfucbBiXrDpXTFxEB4RrVA3avqW0vpnClOzPpGkDbqc/dUughITu1CnyfkpfvJfOW1zkO5tJfe95n74tqCbdlsdp/Ls7qbCyYdyTPKdobnI8zf8sj6o9V4WRbqYiLdxX/bc/OQtoysDREO5/GZum/g3xCgdOf7UAU19/B7tTO+ORaFa0goPPyTYy3vYkJnWKRmRwrTFWlZ8mrV5AUXEFypweRHm8YDsY2Q4xK+nOluCig4XzwmLQJSYCKp7jnOZf6ILZA4lghKDogJ6dwlqVVddDhc2Gcs6JCIkAp80EhzIESQ/PQobsEPgINQsKM1AsfOaPRFqKv8WuirvRrVsMDDkbaf6M8fiiwIDuncOwT1uJxyUS8CyEd3jPKix/bRVyBDuCk/+CKTNeZssgbirfPgvj1h5HO/NZ6BLnotjopPiQ1rNN8XK0NjQJM0cPxbn1C/DU5Gfw6luLsW7rUWhS+qNP93YI4lmIjvlZYtu9XYYfka+rhs1ehGXTFuJwxGNYun03nh4eg0gZi4+ygkLRNkxI/xA05W3s2Pcl3kg4gdenZeBQhRkeoQy6gtPoMW4WZo1KQTvlZTFa+M29Id3XWyrHaTgiO2UNOYDtWz7Fp/u3YN/mpdDGP4TVS+ZiZBBft+Th77cti0/y8JYexmZzN6RPGomhvbpw5DxGuzKPQc2sWnt4P3yOZPRWE8qKLoDvPRiOVf/GwZIpeMDnQsiQNzBt/Fh0DW89FnrpidRDdZXn0f6vCpF051A8n3FfjY+rOLqNnpjwLAM8Eml3sf8gXO35iFkllCy/rhmpEhE8u2bW7PPx8MnzsHLhCSj9e/NZ3ejoOCjZhcfFQXN7HFTy+u4vydMqzvVa2QqzMHVSEcZmvAaj4KUQNqJEdO2HMTFh+NYmsOUNH7PUhlQ5hRIhPh20BlMNDI9JizK3E1Hs9edkTiByJN7/z2yMSGjLuQ0FtOPzPHSKj4DcH9K8YuGuVZC8Qol6ZxZy+0T072/AikUZeHv5BmzdsplW/+slLNIBiUnxiGQ7EgWJG+yvC2wRzQ03G+H56IGYdJsb2z/Kwqpdu2jTqo3YV1EJGxvOovs+hB7SrViZuQY7vv6CVi94Ca8uWowKuw0cs3Cn18fa+gMcrpIc+vDvD9KQlNsoJSWF+qQ+SG9uPERGBxFV7KRHZmymQ0Vm0n89l6av+46Kq73kO3+QXhl5L6Wy8v0fe5GmDr2X1hw8Qxa23Fm6dyXdf3caJSenUGq/CbR8bzF7IkD5Zy/S0xvyqJKtrP4BsAZGRYfAVvfEQyQgEhAJiAREAiKBW4PA/wA7oiQw2UHGsQAAAABJRU5ErkJggg=="
       }
     ],
     "fontList": [
@@ -45,10 +40,10 @@
         "title": "Sketch",
         "id": "1",
         "sketchRect": {
-          "top": -4,
+          "top": 0,
           "left": 0,
-          "bottom": 394,
-          "right": 646
+          "bottom": 540,
+          "right": 780
         }
       },
       "preferences": {
@@ -113,12 +108,12 @@
           "constraint": "Calculation",
           "geom": {
             "loc": {
-              "x": 269,
-              "y": 193
+              "x": 314,
+              "y": 230
             }
           },
           "expressionType": "UniMeasure_ExprType",
-          "expression": "1+1",
+          "expression": "",
           "toolRole": "given",
           "style": {
             "font-family": 0,
@@ -130,58 +125,6 @@
             "color": "black",
             "precision": 2,
             "nameOrigin": "namedFromTemplate"
-          }
-        },
-        "2": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 149,
-              "y": 347
-            }
-          },
-          "style": {
-            "hidden": true,
-            "color": "rgb(255,128,0)",
-            "radius": 1.5
-          }
-        },
-        "3": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 207,
-              "y": 343
-            }
-          },
-          "style": {
-            "hidden": true,
-            "color": "red"
-          }
-        },
-        "4": {
-          "kind": "Picture",
-          "genus": "ImportedPicture",
-          "constraint": "PictureFree",
-          "geom": {
-            "transform": {
-              "m00": 1,
-              "m10": 0,
-              "m20": 12,
-              "m01": 0,
-              "m11": 1,
-              "m21": 21
-            }
-          },
-          "image": 0,
-          "style": {
-            "color": "red",
-            "opacity": 1,
-            "layerOrder": 0
           }
         }
       }
@@ -257,8 +200,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 330,
-              "y": 204
+              "x": 390,
+              "y": 270
             }
           },
           "style": {
@@ -375,8 +318,8 @@
           "constraint": "Function",
           "geom": {
             "loc": {
-              "x": 19,
-              "y": 94
+              "x": 213,
+              "y": 227
             }
           },
           "expressionType": "YofX_FunctionExprType",
@@ -436,221 +379,6 @@
             }
           },
           "image": 2,
-          "style": {
-            "color": "red",
-            "opacity": 1,
-            "layerOrder": 0
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "image": 3,
-        "name": "Slider"
-      },
-      "objects": {
-        "1": {
-          "kind": "Expression",
-          "genus": "ScalarParameter",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 35,
-              "y": 29
-            }
-          },
-          "expressionType": "UniMeasure_ExprType",
-          "expression": "1",
-          "toolRole": "given",
-          "givenSortOrder": 4,
-          "label": "min",
-          "style": {
-            "font-family": 0,
-            "font-size": 18,
-            "font-weight": "normal",
-            "font-style": "normal",
-            "text-decoration": "none",
-            "letter-spacing": "none",
-            "color": "black",
-            "precision": 2,
-            "nameOrigin": "namedFromLabel",
-            "contenteditable": true
-          }
-        },
-        "2": {
-          "kind": "Expression",
-          "genus": "ScalarParameter",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 31,
-              "y": 63
-            }
-          },
-          "expressionType": "UniMeasure_ExprType",
-          "expression": "5",
-          "toolRole": "given",
-          "givenSortOrder": 5,
-          "label": "max",
-          "style": {
-            "font-family": 0,
-            "font-size": 18,
-            "font-weight": "normal",
-            "font-style": "normal",
-            "text-decoration": "none",
-            "letter-spacing": "none",
-            "color": "black",
-            "precision": 2,
-            "nameOrigin": "namedFromLabel",
-            "contenteditable": true
-          }
-        },
-        "3": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 39,
-              "y": 121
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 2,
-          "style": {
-            "color": "green"
-          }
-        },
-        "4": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 215,
-              "y": 121
-            }
-          },
-          "toolRole": "given",
-          "givenSortOrder": 3,
-          "style": {
-            "color": "green"
-          }
-        },
-        "5": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "3",
-            "p1": "4"
-          },
-          "constraint": "Segment",
-          "label": "constructibleGiven1",
-          "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 0,
-              "labelOffsetY": -23,
-              "labelParam": 0.20454545454545,
-              "font-family": 0,
-              "font-size": 16,
-              "font-weight": "normal",
-              "font-style": "normal",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
-          }
-        },
-        "6": {
-          "kind": "Point",
-          "genus": "PointOnPath",
-          "parents": {
-            "path": "5"
-          },
-          "value": 0.64772727272727,
-          "constraint": "PointOnPath",
-          "label": "I",
-          "style": {
-            "color": "red",
-            "radius": 6
-          }
-        },
-        "7": {
-          "kind": "Measure",
-          "genus": "ScalarMeasure",
-          "parents": {
-            "point": "6",
-            "path": "5"
-          },
-          "constraint": "MeasurementValueOfPointOnPath",
-          "geom": {
-            "loc": {
-              "x": 21,
-              "y": 162
-            }
-          },
-          "label": "m[3]",
-          "style": {
-            "hidden": true,
-            "font-family": 0,
-            "font-size": 18,
-            "font-weight": "normal",
-            "font-style": "normal",
-            "text-decoration": "none",
-            "letter-spacing": "none",
-            "color": "black",
-            "precision": 2,
-            "nameOrigin": "namedFromTemplate"
-          }
-        },
-        "8": {
-          "kind": "Expression",
-          "genus": "ScalarMeasure",
-          "parents": {
-            "0": "1",
-            "1": "7",
-            "2": "2"
-          },
-          "constraint": "Calculation",
-          "geom": {
-            "loc": {
-              "x": 96,
-              "y": 147
-            }
-          },
-          "expressionType": "UniMeasure_ExprType",
-          "expression": "@0+@1*(@2-@0)",
-          "label": "a",
-          "style": {
-            "font-family": 0,
-            "font-size": 18,
-            "font-weight": "normal",
-            "font-style": "normal",
-            "text-decoration": "none",
-            "letter-spacing": "none",
-            "color": "black",
-            "precision": 2,
-            "nameOrigin": "namedFromLabel"
-          }
-        },
-        "9": {
-          "kind": "Picture",
-          "genus": "ImportedPicture",
-          "constraint": "PictureFree",
-          "geom": {
-            "transform": {
-              "m00": 1,
-              "m10": 0,
-              "m20": 69,
-              "m01": 0,
-              "m11": 1,
-              "m21": 192
-            }
-          },
-          "image": 3,
           "style": {
             "color": "red",
             "opacity": 1,

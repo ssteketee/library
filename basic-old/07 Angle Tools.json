@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "width": 648,
-    "height": 399,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1026.7-wsp-widgets",
+    "wsp-build-stamp": "ip-10-149-70-76/20180827113948",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Angle Tools.gsp",
@@ -45,8 +45,8 @@
         "sketchRect": {
           "top": 4,
           "left": -4,
-          "bottom": 403,
-          "right": 644
+          "bottom": 544,
+          "right": 776
         }
       },
       "preferences": {
@@ -584,8 +584,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 362,
-              "y": 174
+              "x": 361,
+              "y": 193
             }
           },
           "toolRole": "given",
@@ -600,8 +600,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 270,
-              "y": 334
+              "x": 269,
+              "y": 353
             }
           },
           "toolRole": "given",
@@ -628,8 +628,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 452,
-              "y": 301
+              "x": 451,
+              "y": 320
             }
           },
           "toolRole": "given",

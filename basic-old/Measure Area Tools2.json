@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "width": 648,
-    "height": 397,
+    "width": 780,
+    "height": 540,
     "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-build-number": "1020",
+    "wsp-build-stamp": "stek-macbook-pro.local/20190327211513",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
-    "original-document-name": "Measure Area Tools.gsp",
+    "original-document-name": "Measure Area Tools2.gsp",
     "start-page": "1"
   },
   "resources": {
@@ -40,8 +40,8 @@
         "sketchRect": {
           "top": 0,
           "left": 0,
-          "bottom": 397,
-          "right": 648
+          "bottom": 540,
+          "right": 780
         }
       },
       "preferences": {
@@ -106,12 +106,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 208,
-              "y": 231
+              "x": 258,
+              "y": 257
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 2,
+          "givenSortOrder": 1,
           "label": "P[1]",
           "style": {
             "color": "red",
@@ -135,12 +135,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 311,
-              "y": 134
+              "x": 361,
+              "y": 160
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 3,
+          "givenSortOrder": 2,
           "label": "P[2]",
           "style": {
             "color": "red",
@@ -176,12 +176,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 410,
-              "y": 278
+              "x": 460,
+              "y": 304
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 4,
+          "givenSortOrder": 3,
           "label": "P[3]",
           "style": {
             "color": "red",
@@ -232,7 +232,7 @@
             "2": "4"
           },
           "constraint": "PolygonFromPoints",
-          "label": "constructibleGiven1",
+          "label": "constructibleGiven",
           "style": {
             "color": "lime",
             "layerOrder": 0
@@ -247,8 +247,8 @@
           "constraint": "MeasurementArea",
           "geom": {
             "loc": {
-              "x": 112,
-              "y": 52
+              "x": 190,
+              "y": 405
             }
           },
           "style": {
@@ -274,7 +274,7 @@
               "m20": 14,
               "m01": 0,
               "m11": 1,
-              "m21": 18
+              "m21": 14
             }
           },
           "image": 0,
@@ -298,12 +298,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 174,
-              "y": 234
+              "x": 263,
+              "y": 293
             }
           },
           "toolRole": "given",
-          "label": "2 P[1]",
+          "label": "1 P[1]",
           "style": {
             "color": "red",
             "label": {
@@ -326,12 +326,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 370,
-              "y": 280
+              "x": 459,
+              "y": 339
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 5,
+          "givenSortOrder": 4,
           "label": "P[4]",
           "style": {
             "color": "red",
@@ -367,12 +367,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 417,
-              "y": 215
+              "x": 506,
+              "y": 274
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 4,
+          "givenSortOrder": 3,
           "label": "P[3]",
           "style": {
             "color": "red",
@@ -408,12 +408,12 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 336,
-              "y": 113
+              "x": 425,
+              "y": 172
             }
           },
           "toolRole": "given",
-          "givenSortOrder": 3,
+          "givenSortOrder": 2,
           "label": "P[2]",
           "style": {
             "color": "red",
@@ -465,7 +465,7 @@
             "3": "1"
           },
           "constraint": "PolygonFromPoints",
-          "label": "constructibleGiven1",
+          "label": "constructibleGiven",
           "style": {
             "color": "red",
             "layerOrder": 0
@@ -531,46 +531,19 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 332,
-              "y": 198
+              "x": 383,
+              "y": 258
             }
           },
           "toolRole": "given",
+          "givenSortOrder": 1,
+          "label": "P[1]",
           "style": {
-            "color": "red"
-          }
-        },
-        "2": {
-          "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": 241,
-              "y": 240
-            }
-          },
-          "toolRole": "given",
-          "style": {
-            "color": "red"
-          }
-        },
-        "3": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "1",
-            "p1": "2"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "label": "constructibleGiven",
-          "style": {
-            "color": "green",
+            "color": "red",
             "label": {
               "showLabel": true,
-              "labelOffsetX": -144,
-              "labelOffsetY": -26,
-              "labelParam": 0.4688365492187,
+              "labelOffsetX": 2,
+              "labelOffsetY": 4,
               "font-family": 0,
               "font-size": 18,
               "font-weight": "normal",
@@ -581,6 +554,47 @@
             }
           }
         },
+        "2": {
+          "kind": "Point",
+          "genus": "Point",
+          "constraint": "Free",
+          "geom": {
+            "loc": {
+              "x": 292,
+              "y": 300
+            }
+          },
+          "toolRole": "given",
+          "givenSortOrder": 2,
+          "label": "P[2]",
+          "style": {
+            "color": "red",
+            "label": {
+              "showLabel": true,
+              "labelOffsetX": -70,
+              "labelOffsetY": 5,
+              "font-family": 0,
+              "font-size": 18,
+              "font-weight": "normal",
+              "font-style": "italic",
+              "text-decoration": "none",
+              "letter-spacing": "none",
+              "color": "black"
+            }
+          }
+        },
+        "3": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "color": "green"
+          }
+        },
         "4": {
           "kind": "CircleInterior",
           "genus": "CircleInt",
@@ -588,7 +602,7 @@
             "circle": "3"
           },
           "constraint": "CircleInterior",
-          "label": "P",
+          "label": "constructibleGiven",
           "style": {
             "color": "yellow",
             "layerOrder": 0
@@ -604,7 +618,7 @@
           "geom": {
             "loc": {
               "x": 239,
-              "y": 449
+              "y": 445
             }
           },
           "style": {
@@ -630,7 +644,7 @@
               "m20": 16,
               "m01": 0,
               "m11": 1,
-              "m21": 19
+              "m21": 15
             }
           },
           "image": 2,
