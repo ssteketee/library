@@ -2,13 +2,19 @@
   "metadata": {
     "width": 646,
     "height": 399,
-    "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-version": "4.6.2",
+    "wsp-build-number": "1034",
+    "wsp-build-stamp": "dn.kcptech.com/20191009135549",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Regular Polygon Tools.gsp",
-    "start-page": "1"
+    "start-page": "1",
+    "authorPreferences": {
+      "stylewidget": "none",
+      "visibilitywidget": "none",
+      "labelwidget": "none",
+      "tracewidget": "none"
+    }
   },
   "resources": {
     "pictures": [
@@ -39,7 +45,7 @@
       }
     ],
     "fontList": [
-      "\"Times\", sans-serif",
+      "\"Geneva\", sans-serif",
       "\"Times New Roman\", sans-serif"
     ]
   },
@@ -49,15 +55,15 @@
         "title": "Sketch",
         "id": "1",
         "sketchRect": {
-          "top": -4,
+          "top": -8,
           "left": 4,
-          "bottom": 395,
+          "bottom": 391,
           "right": 650
         }
       },
       "preferences": {
         "units": {
-          "length": "px",
+          "length": "cm",
           "angle": "deg"
         },
         "precision": {
@@ -74,16 +80,16 @@
           "mathItalicization": true,
           "textTypes": {
             "Label": {
-              "font-family": "\"Times\", sans-serif",
+              "font-family": "\"Geneva\", sans-serif",
               "font-size": 18,
               "font-weight": "normal"
             },
             "Caption": {
-              "font-family": "\"Times\", sans-serif",
+              "font-family": "\"Geneva\", sans-serif",
               "font-size": 24
             },
             "Measurement": {
-              "font-family": "\"Times\", sans-serif"
+              "font-family": "\"Geneva\", sans-serif"
             },
             "Action": {
               "label": {
@@ -279,7 +285,7 @@
     {
       "metadata": {
         "image": 0,
-        "name": "Equilateral Triangle"
+        "name": "Equilateral"
       },
       "objects": {
         "1": {
@@ -288,8 +294,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 269,
-              "y": 269
+              "x": 265,
+              "y": 258
             }
           },
           "toolRole": "given",
@@ -303,8 +309,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 409,
-              "y": 207
+              "x": 396,
+              "y": 195
             }
           },
           "toolRole": "given",
@@ -395,7 +401,6 @@
             "2": "6"
           },
           "constraint": "PolygonFromPoints",
-          "label": "P",
           "style": {
             "color": "lime",
             "layerOrder": 0
@@ -409,17 +414,17 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 15,
+              "m20": 12,
               "m01": 0,
               "m11": 1,
-              "m21": 10
+              "m21": 16
             }
           },
           "image": 0,
           "style": {
             "color": "red",
             "opacity": 1,
-            "layerOrder": 2
+            "layerOrder": 1
           }
         }
       }
@@ -436,8 +441,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 244,
-              "y": 242
+              "x": 238,
+              "y": 233
             }
           },
           "toolRole": "given",
@@ -451,8 +456,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 381,
-              "y": 277
+              "x": 362,
+              "y": 268
             }
           },
           "toolRole": "given",
@@ -473,141 +478,6 @@
           }
         },
         "4": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "1",
-            "p1": "2"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green",
-            "width": 1
-          }
-        },
-        "5": {
-          "kind": "Straight",
-          "genus": "Perpendicular",
-          "parents": {
-            "p0": "1",
-            "line": "3"
-          },
-          "constraint": "Perpendicular",
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
-          }
-        },
-        "6": {
-          "kind": "Straight",
-          "genus": "Perpendicular",
-          "parents": {
-            "p0": "2",
-            "line": "3"
-          },
-          "constraint": "Perpendicular",
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
-          }
-        },
-        "7": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "obj": "5",
-            "circle": "4"
-          },
-          "constraint": "Intersection1",
-          "label": "C",
-          "style": {
-            "color": "white"
-          }
-        },
-        "8": {
-          "kind": "Straight",
-          "genus": "Perpendicular",
-          "parents": {
-            "p0": "7",
-            "line": "5"
-          },
-          "constraint": "Perpendicular",
-          "style": {
-            "hidden": true,
-            "color": "navy",
-            "width": 1
-          }
-        },
-        "9": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "line0": "6",
-            "line1": "8"
-          },
-          "constraint": "Intersection",
-          "label": "D",
-          "style": {
-            "color": "white"
-          }
-        },
-        "10": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "1",
-            "p1": "7"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "11": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "7",
-            "p1": "9"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "12": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "9",
-            "p1": "2"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "13": {
-          "kind": "Polygon",
-          "genus": "Quadrilateral",
-          "parents": {
-            "0": "1",
-            "1": "2",
-            "2": "9",
-            "3": "7"
-          },
-          "constraint": "PolygonFromPoints",
-          "label": "P",
-          "style": {
-            "color": "red",
-            "layerOrder": 0,
-            "framePerimeter": true
-          }
-        },
-        "14": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -615,10 +485,10 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 15,
+              "m20": 20,
               "m01": 0,
               "m11": 1,
-              "m21": 15
+              "m21": 16
             }
           },
           "image": 1,
@@ -626,6 +496,85 @@
             "color": "red",
             "opacity": 1,
             "layerOrder": 1
+          }
+        },
+        "5": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "2",
+            "center": "1"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "white"
+          }
+        },
+        "6": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "1",
+            "center": "5"
+          },
+          "angle": -1.5707963267949,
+          "constraint": "Rotate",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "white"
+          }
+        },
+        "7": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "5"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "8": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "5",
+            "p1": "6"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "9": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "6",
+            "p1": "2"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "10": {
+          "kind": "Polygon",
+          "genus": "Quadrilateral",
+          "parents": {
+            "0": "1",
+            "1": "5",
+            "2": "6",
+            "3": "2"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "color": "red",
+            "layerOrder": 2
           }
         }
       }
@@ -642,8 +591,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 385,
-              "y": 219
+              "x": 294,
+              "y": 270
             }
           },
           "toolRole": "given",
@@ -657,8 +606,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 305,
-              "y": 260
+              "x": 379,
+              "y": 224
             }
           },
           "toolRole": "given",
@@ -668,16 +617,14 @@
         },
         "3": {
           "kind": "Straight",
-          "genus": "Ray",
+          "genus": "Segment",
           "parents": {
             "p0": "1",
             "p1": "2"
           },
-          "constraint": "Ray",
+          "constraint": "Segment",
           "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
+            "color": "navy"
           }
         },
         "4": {
@@ -690,23 +637,101 @@
           "constraint": "CircleFromTwoPoints",
           "style": {
             "hidden": true,
-            "color": "black",
-            "width": 1
+            "color": "green"
           }
         },
         "5": {
-          "kind": "Straight",
-          "genus": "Segment",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
-            "p0": "2",
-            "p1": "1"
+            "p0": "1",
+            "p1": "2"
           },
-          "constraint": "Segment",
+          "constraint": "CircleFromTwoPoints",
           "style": {
-            "color": "navy"
+            "hidden": true,
+            "color": "green"
           }
         },
         "6": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "5",
+            "circle": "4"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "red"
+          }
+        },
+        "7": {
+          "kind": "Straight",
+          "genus": "Perpendicular",
+          "parents": {
+            "p0": "6",
+            "line": "3"
+          },
+          "constraint": "Perpendicular",
+          "style": {
+            "hidden": true,
+            "color": "navy"
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "line0": "3",
+            "line1": "7"
+          },
+          "constraint": "Intersection",
+          "style": {
+            "hidden": true,
+            "color": "red"
+          }
+        },
+        "9": {
+          "kind": "Straight",
+          "genus": "Parallel",
+          "parents": {
+            "p0": "1",
+            "line": "7"
+          },
+          "constraint": "Parallel",
+          "style": {
+            "hidden": true,
+            "color": "navy"
+          }
+        },
+        "10": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "9",
+            "circle": "5"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "hidden": true,
+            "color": "red"
+          }
+        },
+        "11": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "8",
+            "p1": "10"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "12": {
           "kind": "Straight",
           "genus": "Ray",
           "parents": {
@@ -716,153 +741,53 @@
           "constraint": "Ray",
           "style": {
             "hidden": true,
-            "color": "black",
-            "width": 1
+            "color": "navy"
           }
         },
-        "7": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "1",
-            "p1": "2"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
-          }
-        },
-        "8": {
-          "kind": "Straight",
-          "genus": "Perpendicular",
-          "parents": {
-            "p0": "2",
-            "line": "3"
-          },
-          "constraint": "Perpendicular",
-          "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
-          }
-        },
-        "9": {
-          "kind": "Point",
-          "genus": "Midpoint",
-          "parents": {
-            "path": "5"
-          },
-          "constraint": "Midpoint",
-          "label": "A",
-          "style": {
-            "hidden": true,
-            "color": "white",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 5,
-              "labelOffsetY": 8,
-              "font-family": 1,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "italic",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            },
-            "radius": 2
-          }
-        },
-        "10": {
+        "13": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
-            "obj": "8",
-            "circle": "4"
-          },
-          "constraint": "Intersection2",
-          "style": {
-            "hidden": true,
-            "color": "white"
-          }
-        },
-        "11": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "9",
-            "p1": "10"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
-          }
-        },
-        "12": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "obj": "6",
+            "obj": "12",
             "circle": "11"
           },
           "constraint": "Intersection2",
           "style": {
             "hidden": true,
-            "color": "white",
-            "radius": 2
+            "color": "red"
           }
         },
-        "13": {
+        "14": {
           "kind": "Circle",
           "genus": "Circle",
           "parents": {
             "p0": "2",
-            "p1": "12"
+            "p1": "13"
           },
           "constraint": "CircleFromTwoPoints",
           "style": {
             "hidden": true,
-            "color": "black",
-            "width": 1
-          }
-        },
-        "14": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "12",
-            "p1": "2"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
+            "color": "green"
           }
         },
         "15": {
-          "kind": "Circle",
-          "genus": "Circle",
+          "kind": "Point",
+          "genus": "Intersection",
           "parents": {
-            "p0": "1",
-            "radius": "14"
+            "obj": "7",
+            "circle": "14"
           },
-          "constraint": "CircleByRadius",
+          "constraint": "Intersection1",
           "style": {
-            "hidden": true,
-            "color": "black",
-            "width": 1
+            "color": "white"
           }
         },
         "16": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
-            "obj": "13",
-            "circle": "7"
+            "obj": "5",
+            "circle": "14"
           },
           "constraint": "Intersection1",
           "style": {
@@ -870,23 +795,24 @@
           }
         },
         "17": {
-          "kind": "Point",
-          "genus": "Intersection",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
-            "obj": "13",
-            "circle": "15"
+            "p0": "15",
+            "radius": "3"
           },
-          "constraint": "Intersection1",
+          "constraint": "CircleByRadius",
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "green"
           }
         },
         "18": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
-            "obj": "4",
-            "circle": "15"
+            "obj": "17",
+            "circle": "4"
           },
           "constraint": "Intersection1",
           "style": {
@@ -906,40 +832,22 @@
           }
         },
         "20": {
-          "kind": "Polygon",
-          "genus": "Pentagon",
-          "parents": {
-            "0": "16",
-            "1": "17",
-            "2": "18",
-            "3": "2",
-            "4": "1"
-          },
-          "constraint": "PolygonFromPoints",
-          "label": "P",
-          "style": {
-            "color": "aqua",
-            "opacity": 0.74999618530273,
-            "layerOrder": 0
-          }
-        },
-        "21": {
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
             "p0": "16",
-            "p1": "17"
+            "p1": "15"
           },
           "constraint": "Segment",
           "style": {
             "color": "navy"
           }
         },
-        "22": {
+        "21": {
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
-            "p0": "17",
+            "p0": "15",
             "p1": "18"
           },
           "constraint": "Segment",
@@ -947,7 +855,7 @@
             "color": "navy"
           }
         },
-        "23": {
+        "22": {
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
@@ -959,6 +867,22 @@
             "color": "navy"
           }
         },
+        "23": {
+          "kind": "Polygon",
+          "genus": "Pentagon",
+          "parents": {
+            "0": "1",
+            "1": "2",
+            "2": "18",
+            "3": "15",
+            "4": "16"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "color": "aqua",
+            "layerOrder": 0
+          }
+        },
         "24": {
           "kind": "Picture",
           "genus": "ImportedPicture",
@@ -967,10 +891,10 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 12,
+              "m20": 14,
               "m01": 0,
               "m11": 1,
-              "m21": 14
+              "m21": 9
             }
           },
           "image": 2,
@@ -994,8 +918,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 369,
-              "y": 249
+              "x": 286,
+              "y": 263
             }
           },
           "toolRole": "given",
@@ -1009,8 +933,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 293,
-              "y": 260
+              "x": 364,
+              "y": 250
             }
           },
           "toolRole": "given",
@@ -1019,6 +943,18 @@
           }
         },
         "3": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "2"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "4": {
           "kind": "Circle",
           "genus": "Circle",
           "parents": {
@@ -1031,7 +967,7 @@
             "color": "green"
           }
         },
-        "4": {
+        "5": {
           "kind": "Circle",
           "genus": "Circle",
           "parents": {
@@ -1044,23 +980,11 @@
             "color": "green"
           }
         },
-        "5": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "2",
-            "p1": "1"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
         "6": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
-            "obj": "3",
+            "obj": "5",
             "circle": "4"
           },
           "constraint": "Intersection1",
@@ -1070,37 +994,36 @@
           }
         },
         "7": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "1",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "navy"
-          }
-        },
-        "8": {
-          "kind": "Straight",
-          "genus": "Segment",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
             "p0": "6",
             "p1": "2"
           },
-          "constraint": "Segment",
+          "constraint": "CircleFromTwoPoints",
           "style": {
             "hidden": true,
-            "color": "navy"
+            "color": "green"
+          }
+        },
+        "8": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "7",
+            "circle": "4"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "color": "white"
           }
         },
         "9": {
           "kind": "Circle",
           "genus": "Circle",
           "parents": {
-            "p0": "6",
-            "p1": "1"
+            "p0": "8",
+            "p1": "6"
           },
           "constraint": "CircleFromTwoPoints",
           "style": {
@@ -1109,101 +1032,97 @@
           }
         },
         "10": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "1",
-            "p1": "6"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "11": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
             "obj": "9",
-            "circle": "10"
+            "circle": "7"
           },
-          "constraint": "Intersection1",
-          "label": "D",
+          "constraint": "Intersection2",
           "style": {
             "color": "white"
+          }
+        },
+        "11": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "10",
+            "p1": "6"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
           }
         },
         "12": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "1",
-            "p1": "11"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "13": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "11",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "navy"
-          }
-        },
-        "14": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "6",
-            "p1": "11"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "15": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "11",
-            "p1": "6"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "16": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
-            "obj": "14",
-            "circle": "15"
+            "obj": "7",
+            "circle": "11"
           },
           "constraint": "Intersection1",
-          "label": "G",
           "style": {
             "color": "white"
+          }
+        },
+        "13": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "12",
+            "p1": "6"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "14": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "13",
+            "circle": "5"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "color": "white"
+          }
+        },
+        "15": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "2",
+            "p1": "8"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "8",
+            "p1": "10"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
           }
         },
         "17": {
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
-            "p0": "11",
-            "p1": "16"
+            "p0": "10",
+            "p1": "12"
           },
           "constraint": "Segment",
           "style": {
@@ -1214,239 +1133,44 @@
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
-            "p0": "16",
-            "p1": "6"
+            "p0": "12",
+            "p1": "14"
           },
           "constraint": "Segment",
           "style": {
-            "hidden": true,
             "color": "navy"
           }
         },
         "19": {
-          "kind": "Circle",
-          "genus": "Circle",
+          "kind": "Straight",
+          "genus": "Segment",
           "parents": {
-            "p0": "6",
-            "p1": "16"
+            "p0": "14",
+            "p1": "1"
           },
-          "constraint": "CircleFromTwoPoints",
+          "constraint": "Segment",
           "style": {
-            "hidden": true,
-            "color": "green"
+            "color": "navy"
           }
         },
         "20": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "16",
-            "p1": "6"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "21": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "obj": "19",
-            "circle": "20"
-          },
-          "constraint": "Intersection1",
-          "label": "F",
-          "style": {
-            "color": "white"
-          }
-        },
-        "22": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "16",
-            "p1": "21"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "23": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "21",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "navy"
-          }
-        },
-        "24": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "6",
-            "p1": "21"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "25": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "21",
-            "p1": "6"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "26": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "obj": "24",
-            "circle": "25"
-          },
-          "constraint": "Intersection1",
-          "label": "E",
-          "style": {
-            "color": "white"
-          }
-        },
-        "27": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "21",
-            "p1": "26"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "28": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "26",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "navy"
-          }
-        },
-        "29": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "6",
-            "p1": "26"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "30": {
-          "kind": "Circle",
-          "genus": "Circle",
-          "parents": {
-            "p0": "26",
-            "p1": "6"
-          },
-          "constraint": "CircleFromTwoPoints",
-          "style": {
-            "hidden": true,
-            "color": "green"
-          }
-        },
-        "31": {
-          "kind": "Point",
-          "genus": "Intersection",
-          "parents": {
-            "obj": "29",
-            "circle": "30"
-          },
-          "constraint": "Intersection1",
-          "label": "C",
-          "style": {
-            "hidden": true,
-            "color": "red",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": -10,
-              "labelOffsetY": 5,
-              "font-family": 0,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "normal",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
-          }
-        },
-        "32": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "26",
-            "p1": "31"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "33": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "31",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "hidden": true,
-            "color": "navy"
-          }
-        },
-        "34": {
           "kind": "Polygon",
           "genus": "Hexagon",
           "parents": {
-            "0": "26",
-            "1": "2",
-            "2": "1",
-            "3": "11",
-            "4": "16",
-            "5": "21"
+            "0": "1",
+            "1": "14",
+            "2": "12",
+            "3": "10",
+            "4": "8",
+            "5": "2"
           },
           "constraint": "PolygonFromPoints",
-          "label": "P",
           "style": {
             "color": "rgb(138,102,217)",
-            "layerOrder": 2
+            "layerOrder": 0
           }
         },
-        "35": {
+        "21": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -1454,17 +1178,17 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 18,
+              "m20": 14,
               "m01": 0,
               "m11": 1,
-              "m21": 17
+              "m21": 9
             }
           },
           "image": 3,
           "style": {
             "color": "red",
             "opacity": 1,
-            "layerOrder": 3
+            "layerOrder": 1
           }
         }
       }
@@ -1481,8 +1205,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 353,
-              "y": 269
+              "x": 271,
+              "y": 265
             }
           },
           "toolRole": "given",
@@ -1496,8 +1220,8 @@
           "constraint": "Free",
           "geom": {
             "loc": {
-              "x": 286,
-              "y": 261
+              "x": 335,
+              "y": 273
             }
           },
           "toolRole": "given",
@@ -1519,225 +1243,350 @@
         },
         "4": {
           "kind": "Point",
-          "genus": "Point",
+          "genus": "Midpoint",
           "parents": {
-            "source": "1",
-            "center": "2"
+            "path": "3"
           },
-          "angle": -2.3561944901924,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
+          "constraint": "Midpoint",
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "red"
           }
         },
         "5": {
-          "kind": "Point",
-          "genus": "Point",
+          "kind": "Straight",
+          "genus": "Perpendicular",
           "parents": {
-            "source": "2",
-            "center": "4"
+            "p0": "4",
+            "line": "3"
           },
-          "angle": -2.3561944901924,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
+          "constraint": "Perpendicular",
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "navy"
           }
         },
         "6": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "4",
-            "center": "5"
+            "source": "2",
+            "center": "1"
           },
-          "angle": -2.3561944901924,
+          "angle": -1.1780972450962,
           "constraint": "Rotate",
           "shouldAutogenerateLabel": true,
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "red"
           }
         },
         "7": {
-          "kind": "Point",
-          "genus": "Point",
+          "kind": "Straight",
+          "genus": "Ray",
           "parents": {
-            "source": "5",
-            "center": "6"
+            "p0": "1",
+            "p1": "6"
           },
-          "angle": -2.3561944901924,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
+          "constraint": "Ray",
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "navy"
           }
         },
         "8": {
           "kind": "Point",
-          "genus": "Point",
+          "genus": "Intersection",
           "parents": {
-            "source": "6",
-            "center": "7"
+            "line0": "5",
+            "line1": "7"
           },
-          "angle": -2.3561944901924,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
+          "constraint": "Intersection",
           "style": {
-            "color": "white"
+            "hidden": true,
+            "color": "red"
           }
         },
         "9": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "7",
-            "center": "8"
-          },
-          "angle": -2.3561944901924,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "white"
-          }
-        },
-        "10": {
           "kind": "Straight",
           "genus": "Segment",
           "parents": {
             "p0": "2",
-            "p1": "4"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "11": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "4",
-            "p1": "5"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "12": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "5",
-            "p1": "6"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "13": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "6",
-            "p1": "7"
-          },
-          "constraint": "Segment",
-          "style": {
-            "color": "navy"
-          }
-        },
-        "14": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "p0": "7",
             "p1": "8"
           },
           "constraint": "Segment",
           "style": {
+            "hidden": true,
             "color": "navy"
+          }
+        },
+        "10": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "8",
+            "p1": "1"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "11": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "2",
+            "p1": "1"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "12": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "10",
+            "circle": "11"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "color": "white"
+          }
+        },
+        "13": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "12",
+            "p1": "2"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "14": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "13",
+            "circle": "10"
+          },
+          "constraint": "Intersection2",
+          "style": {
+            "color": "white"
           }
         },
         "15": {
-          "kind": "Straight",
-          "genus": "Segment",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
-            "p0": "8",
-            "p1": "9"
+            "p0": "14",
+            "p1": "12"
           },
-          "constraint": "Segment",
+          "constraint": "CircleFromTwoPoints",
           "style": {
-            "color": "navy"
+            "hidden": true,
+            "color": "green"
           }
         },
         "16": {
-          "kind": "Straight",
-          "genus": "Segment",
+          "kind": "Point",
+          "genus": "Intersection",
           "parents": {
-            "p0": "9",
-            "p1": "1"
+            "obj": "10",
+            "circle": "15"
           },
-          "constraint": "Segment",
+          "constraint": "Intersection1",
           "style": {
-            "color": "navy"
+            "color": "white"
           }
         },
         "17": {
-          "kind": "Polygon",
-          "genus": "Polygon",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
-            "0": "2",
-            "1": "4",
-            "2": "5",
-            "3": "6",
-            "4": "7",
-            "5": "8",
-            "6": "9",
-            "7": "1"
+            "p0": "16",
+            "p1": "14"
           },
-          "constraint": "PolygonFromPoints",
-          "label": "P",
+          "constraint": "CircleFromTwoPoints",
           "style": {
-            "color": "rgb(255,128,0)",
-            "layerOrder": 1,
-            "framePerimeter": true,
-            "width": 1
+            "hidden": true,
+            "color": "green"
           }
         },
         "18": {
           "kind": "Point",
-          "genus": "Point",
-          "constraint": "Free",
-          "geom": {
-            "loc": {
-              "x": -7,
-              "y": 66
-            }
+          "genus": "Intersection",
+          "parents": {
+            "obj": "17",
+            "circle": "10"
           },
+          "constraint": "Intersection2",
           "style": {
-            "hidden": true,
-            "color": "red"
+            "color": "white"
           }
         },
         "19": {
-          "kind": "Point",
-          "genus": "Point",
+          "kind": "Circle",
+          "genus": "Circle",
           "parents": {
-            "source": "18"
+            "p0": "18",
+            "p1": "16"
           },
-          "angle": -1.5707963267949,
-          "distance": 75,
-          "constraint": "TranslateFixDistFixAngle",
-          "shouldAutogenerateLabel": true,
+          "constraint": "CircleFromTwoPoints",
           "style": {
             "hidden": true,
-            "color": "red"
+            "color": "green"
           }
         },
         "20": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "10",
+            "circle": "19"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "color": "white"
+          }
+        },
+        "21": {
+          "kind": "Circle",
+          "genus": "Circle",
+          "parents": {
+            "p0": "20",
+            "p1": "18"
+          },
+          "constraint": "CircleFromTwoPoints",
+          "style": {
+            "hidden": true,
+            "color": "green"
+          }
+        },
+        "22": {
+          "kind": "Point",
+          "genus": "Intersection",
+          "parents": {
+            "obj": "10",
+            "circle": "21"
+          },
+          "constraint": "Intersection1",
+          "style": {
+            "color": "white"
+          }
+        },
+        "23": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "1",
+            "p1": "22"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "24": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "22",
+            "p1": "20"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "25": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "20",
+            "p1": "18"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "26": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "18",
+            "p1": "16"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "27": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "16",
+            "p1": "14"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "28": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "14",
+            "p1": "12"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "29": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "12",
+            "p1": "2"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "30": {
+          "kind": "Polygon",
+          "genus": "Polygon",
+          "parents": {
+            "0": "1",
+            "1": "2",
+            "2": "12",
+            "3": "14",
+            "4": "16",
+            "5": "18",
+            "6": "20",
+            "7": "22"
+          },
+          "constraint": "PolygonFromPoints",
+          "style": {
+            "color": "rgb(255,128,0)",
+            "layerOrder": 0
+          }
+        },
+        "31": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -1745,17 +1594,17 @@
             "transform": {
               "m00": 1,
               "m10": 0,
-              "m20": 12,
+              "m20": 14,
               "m01": 0,
               "m11": 1,
-              "m21": 13
+              "m21": 9
             }
           },
           "image": 4,
           "style": {
             "color": "red",
             "opacity": 1,
-            "layerOrder": 3
+            "layerOrder": 1
           }
         }
       }

@@ -2,9 +2,9 @@
   "metadata": {
     "width": 645,
     "height": 401,
-    "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-version": "4.6.0",
+    "wsp-build-number": "1030",
+    "wsp-build-stamp": "dn.kcptech.com/20190819121403",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Parallel and Perpendicular Tools.gsp",
@@ -34,8 +34,8 @@
       }
     ],
     "fontList": [
-      "\"Times\", sans-serif",
-      "\"Times New Roman\", sans-serif"
+      "\"Times New Roman\", sans-serif",
+      "\"Geneva\", sans-serif"
     ]
   },
   "pages": [
@@ -69,16 +69,16 @@
           "mathItalicization": true,
           "textTypes": {
             "Label": {
-              "font-family": "\"Times\", sans-serif",
+              "font-family": "\"Geneva\", sans-serif",
               "font-size": 18,
               "font-weight": "normal"
             },
             "Caption": {
-              "font-family": "\"Times\", sans-serif",
+              "font-family": "\"Geneva\", sans-serif",
               "font-size": 24
             },
             "Measurement": {
-              "font-family": "\"Times\", sans-serif"
+              "font-family": "\"Geneva\", sans-serif"
             },
             "Action": {
               "label": {
@@ -368,7 +368,7 @@
               "labelOffsetX": 1,
               "labelOffsetY": 2,
               "labelParam": 0.47868168762869,
-              "font-family": 1,
+              "font-family": 0,
               "font-size": 18,
               "font-weight": "normal",
               "font-style": "normal",
@@ -459,7 +459,7 @@
               "labelOffsetX": 3,
               "labelOffsetY": 5,
               "labelParam": 0.41934193111515,
-              "font-family": 1,
+              "font-family": 0,
               "font-size": 18,
               "font-weight": "normal",
               "font-style": "italic",

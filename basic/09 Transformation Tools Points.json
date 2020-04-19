@@ -2,13 +2,19 @@
   "metadata": {
     "width": 648,
     "height": 399,
-    "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-version": "4.6.2",
+    "wsp-build-number": "1034",
+    "wsp-build-stamp": "dn.kcptech.com/20191009135549",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Transformation Tools Points.gsp",
-    "start-page": "1"
+    "start-page": "1",
+    "authorPreferences": {
+      "stylewidget": "none",
+      "visibilitywidget": "none",
+      "labelwidget": "none",
+      "tracewidget": "none"
+    }
   },
   "resources": {
     "pictures": [
@@ -214,20 +220,7 @@
           "constraint": "Segment",
           "label": "constructibleGiven2",
           "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 2,
-              "labelOffsetY": 5,
-              "labelParam": 0.30298980487991,
-              "font-family": 0,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "italic",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
+            "color": "navy"
           }
         },
         "8": {
@@ -442,7 +435,7 @@
             "color": "green",
             "label": {
               "showLabel": true,
-              "labelOffsetX": -3,
+              "labelOffsetX": 8,
               "labelOffsetY": 5,
               "font-family": 0,
               "font-size": 18,
@@ -481,7 +474,7 @@
             }
           },
           "expressionType": "UniMeasure_ExprType",
-          "expression": "35\u00b0",
+          "expression": "35°",
           "toolRole": "given",
           "givenSortOrder": 3,
           "label": "angle of rotation",
@@ -508,7 +501,6 @@
           },
           "constraint": "RotateMeasureAngle",
           "shouldAutogenerateLabel": true,
-          "label": "given1'",
           "style": {
             "color": "red"
           }
@@ -587,7 +579,7 @@
             "color": "green",
             "label": {
               "showLabel": true,
-              "labelOffsetX": -2,
+              "labelOffsetX": 8,
               "labelOffsetY": 5,
               "font-family": 0,
               "font-size": 18,
@@ -655,7 +647,7 @@
     {
       "metadata": {
         "image": 4,
-        "name": "Glide Reflect"
+        "name": "Glide\u00a0Reflect"
       },
       "objects": {
         "1": {
@@ -714,51 +706,10 @@
           "constraint": "Segment",
           "label": "constructibleGiven2",
           "style": {
-            "color": "navy",
-            "label": {
-              "showLabel": true,
-              "labelOffsetX": 8,
-              "labelOffsetY": -19,
-              "labelParam": 0.34931699364776,
-              "font-family": 0,
-              "font-size": 18,
-              "font-weight": "normal",
-              "font-style": "italic",
-              "text-decoration": "none",
-              "letter-spacing": "none",
-              "color": "black"
-            }
+            "color": "navy"
           }
         },
         "5": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "3",
-            "mirror": "4"
-          },
-          "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "hidden": true,
-            "color": "red"
-          }
-        },
-        "6": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "5",
-            "p0": "2",
-            "p1": "1"
-          },
-          "constraint": "TranslateVector",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "red"
-          }
-        },
-        "7": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -779,7 +730,7 @@
             "layerOrder": 1
           }
         },
-        "8": {
+        "6": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
@@ -794,12 +745,12 @@
             "color": "green"
           }
         },
-        "9": {
+        "7": {
           "kind": "Circle",
           "genus": "Circle",
           "parents": {
             "p0": "1",
-            "p1": "8"
+            "p1": "6"
           },
           "constraint": "CircleFromTwoPoints",
           "style": {
@@ -807,12 +758,12 @@
             "color": "green"
           }
         },
-        "10": {
+        "8": {
           "kind": "Point",
           "genus": "Intersection",
           "parents": {
             "obj": "4",
-            "circle": "9"
+            "circle": "7"
           },
           "constraint": "Intersection1",
           "style": {
@@ -820,11 +771,11 @@
             "color": "green"
           }
         },
-        "11": {
+        "9": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "10",
+            "source": "8",
             "center": "1"
           },
           "angle": 0.5235987755983,
@@ -835,11 +786,11 @@
             "color": "green"
           }
         },
-        "12": {
+        "10": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
-            "source": "10",
+            "source": "8",
             "center": "1"
           },
           "angle": -0.5235987755983,
@@ -850,19 +801,32 @@
             "color": "green"
           }
         },
-        "13": {
+        "11": {
           "kind": "Polygon",
           "genus": "Triangle",
           "parents": {
             "0": "1",
-            "1": "11",
-            "2": "12"
+            "1": "9",
+            "2": "10"
           },
           "constraint": "PolygonFromPoints",
           "style": {
             "color": "navy",
             "opacity": 1,
             "layerOrder": 2
+          }
+        },
+        "12": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "3",
+            "mirror": "4"
+          },
+          "constraint": "Reflect",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "red"
           }
         }
       }

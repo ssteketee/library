@@ -2,9 +2,9 @@
   "metadata": {
     "width": 649,
     "height": 398,
-    "wsp-version": "4.5.1-alpha",
-    "wsp-build-number": "1028",
-    "wsp-build-stamp": "dn.kcptech.com/20190613135202",
+    "wsp-version": "4.6.0",
+    "wsp-build-number": "1030",
+    "wsp-build-stamp": "dn.kcptech.com/20190819121403",
     "exporter-version": "6.00A3007(dev)",
     "exporter-build": "3007(dev)",
     "original-document-name": "Transformation Tools Triangles.gsp",
@@ -40,7 +40,7 @@
     ],
     "fontList": [
       "\"Times New Roman\", sans-serif",
-      "\"Proxima Nova\", sans-serif"
+      "\"Geneva\", sans-serif"
     ]
   },
   "pages": [
@@ -80,7 +80,7 @@
               "font-style": "italic"
             },
             "Caption": {
-              "font-family": "\"Proxima Nova\", sans-serif",
+              "font-family": "\"Geneva\", sans-serif",
               "font-size": 24
             },
             "Measurement": {
@@ -89,7 +89,7 @@
             },
             "Action": {
               "label": {
-                "font-family": "\"Proxima Nova\", sans-serif",
+                "font-family": "\"Geneva\", sans-serif",
                 "font-size": 24
               }
             },
@@ -176,6 +176,7 @@
             "p1": "1"
           },
           "constraint": "Segment",
+          "label": "j",
           "style": {
             "color": "navy"
           }
@@ -379,34 +380,6 @@
           }
         },
         "20": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "4",
-            "p0": "9",
-            "p1": "8"
-          },
-          "constraint": "TranslateVector",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "21": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "6",
-            "p0": "9",
-            "p1": "8"
-          },
-          "constraint": "TranslateVector",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "22": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -427,21 +400,7 @@
             "layerOrder": 3
           }
         },
-        "23": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "5",
-            "p0": "9",
-            "p1": "8"
-          },
-          "constraint": "TranslateVector",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "24": {
+        "21": {
           "kind": "Polygon",
           "genus": "Triangle",
           "parents": {
@@ -453,6 +412,42 @@
           "style": {
             "color": "lime",
             "layerOrder": 4
+          }
+        },
+        "22": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "19",
+            "p1": "18"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "23": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "18",
+            "p1": "17"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "24": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "17",
+            "p1": "19"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
           }
         }
       }
@@ -470,7 +465,7 @@
           "geom": {
             "loc": {
               "x": 72.4,
-              "y": 115.2
+              "y": 131.2
             }
           },
           "toolRole": "given",
@@ -485,7 +480,7 @@
           "geom": {
             "loc": {
               "x": 95.2,
-              "y": 61.2
+              "y": 77.2
             }
           },
           "toolRole": "given",
@@ -512,7 +507,7 @@
           "geom": {
             "loc": {
               "x": 142,
-              "y": 168
+              "y": 184
             }
           },
           "toolRole": "given",
@@ -566,7 +561,7 @@
           "geom": {
             "loc": {
               "x": 171,
-              "y": 48
+              "y": 64
             }
           },
           "toolRole": "given",
@@ -581,7 +576,7 @@
           "geom": {
             "loc": {
               "x": 191,
-              "y": 199
+              "y": 215
             }
           },
           "toolRole": "given",
@@ -610,7 +605,7 @@
             "mirror": "10"
           },
           "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
+          "label": "nameOrigin: namedByFullFn",
           "style": {
             "color": "red"
           }
@@ -623,25 +618,12 @@
             "mirror": "10"
           },
           "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
+          "label": "nameOrigin: namedByFullFn",
           "style": {
             "color": "red"
           }
         },
         "13": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "3",
-            "mirror": "10"
-          },
-          "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "14": {
           "kind": "Point",
           "genus": "Point",
           "parents": {
@@ -649,38 +631,12 @@
             "mirror": "10"
           },
           "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
+          "label": "nameOrigin: namedByFullFn",
           "style": {
             "color": "red"
           }
         },
-        "15": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "5",
-            "mirror": "10"
-          },
-          "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "16": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "6",
-            "mirror": "10"
-          },
-          "constraint": "Reflect",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "17": {
+        "14": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -691,7 +647,7 @@
               "m20": 35,
               "m01": 0,
               "m11": 1,
-              "m21": 397
+              "m21": 413
             }
           },
           "image": 1,
@@ -701,11 +657,11 @@
             "layerOrder": 2
           }
         },
-        "18": {
+        "15": {
           "kind": "Polygon",
           "genus": "Triangle",
           "parents": {
-            "0": "14",
+            "0": "13",
             "1": "12",
             "2": "11"
           },
@@ -713,6 +669,42 @@
           "style": {
             "color": "lime",
             "layerOrder": 3
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "13",
+            "p1": "12"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "17": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "12",
+            "p1": "11"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
+          }
+        },
+        "18": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "p0": "11",
+            "p1": "13"
+          },
+          "constraint": "Segment",
+          "style": {
+            "color": "navy"
           }
         }
       }
@@ -859,7 +851,7 @@
             }
           },
           "expressionType": "UniMeasure_ExprType",
-          "expression": "35\u00b0",
+          "expression": "60\u00b0",
           "toolRole": "given",
           "givenSortOrder": 3,
           "label": "angle of rotation",
@@ -877,90 +869,6 @@
           }
         },
         "10": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "1",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "red"
-          }
-        },
-        "11": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "2",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "red"
-          }
-        },
-        "12": {
-          "kind": "Point",
-          "genus": "Point",
-          "parents": {
-            "source": "3",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "red"
-          }
-        },
-        "13": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "4",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "14": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "5",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "15": {
-          "kind": "Straight",
-          "genus": "Segment",
-          "parents": {
-            "source": "6",
-            "center": "8"
-          },
-          "angle": -1.5707963267949,
-          "constraint": "Rotate",
-          "shouldAutogenerateLabel": true,
-          "style": {
-            "color": "navy"
-          }
-        },
-        "16": {
           "kind": "Picture",
           "genus": "ImportedPicture",
           "constraint": "PictureFree",
@@ -981,13 +889,97 @@
             "layerOrder": 2
           }
         },
+        "11": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "1",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "red"
+          }
+        },
+        "12": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "2",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "red"
+          }
+        },
+        "13": {
+          "kind": "Point",
+          "genus": "Point",
+          "parents": {
+            "source": "3",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "red"
+          }
+        },
+        "14": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "4",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "navy"
+          }
+        },
+        "15": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "5",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "navy"
+          }
+        },
+        "16": {
+          "kind": "Straight",
+          "genus": "Segment",
+          "parents": {
+            "source": "6",
+            "center": "8",
+            "angle": "9"
+          },
+          "constraint": "RotateMeasureAngle",
+          "shouldAutogenerateLabel": true,
+          "style": {
+            "color": "navy"
+          }
+        },
         "17": {
           "kind": "Polygon",
           "genus": "Triangle",
           "parents": {
             "0": "11",
-            "1": "10",
-            "2": "12"
+            "1": "12",
+            "2": "13"
           },
           "constraint": "PolygonFromPoints",
           "style": {
